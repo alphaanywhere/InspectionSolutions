@@ -1,0 +1,414 @@
+
+
+.A5Window {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: url(WindowTrans.png);
+border: solid 1px #8492a2;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+.A5WindowInner {
+background: url(WindowTransHighlight.png) top repeat-x;
+border: solid 1px #ddd;
+border-bottom-color: #bbb;
+border-top-color: #fff;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+padding: 4px 0px;
+}
+.A5WindowActive {
+border: solid 1px #445272;
+border-left-color: #8492a2;
+border-top-color: #8492a2;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+.A5WindowActive .A5WindowInner {
+border: solid 1px #fff;
+border-bottom-color: #93e0ff;
+border-right-color: #93e0ff;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+.A5WindowTitle {
+font: 9pt Tahoma, Arial;
+color: #000;
+background: transparent;
+font-weight: bold;
+padding: 1px 4px;
+margin-top: -4px;
+border: none;
+cursor: move;
+}
+.A5WindowHeader {
+font: 9pt Tahoma, Arial;
+background: transparent;
+border: none;
+}
+.A5WindowBodyOuter {
+background-color: #fff;
+border: solid 1px #ddd;
+border-top-color: #eee;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+margin: 0px 4px;
+}
+.A5WindowTBAR {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: #eee url(mainGrad.png) top repeat-x;
+border: solid 1px #8492a2;
+border-bottom: none;
+padding: 2px;
+margin: 0px;
+}
+.A5WindowBody {
+font: 9pt Tahoma, Arial;
+color: #000000;
+border: solid 1px #8492a2;
+padding: 2px;
+margin: 0px;
+}
+.A5WindowBBar {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: #eee url(WindowMainGrad.png) top repeat-x;
+border: solid 1px #8492a2;
+border-top: none;
+padding: 2px;
+margin: 0px;
+}
+.A5WindowButtons {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: #e1e1e1 url(WindowButtonsGrad.png) top repeat-x;
+border: solid 1px #8492a2;
+border-top: none;
+-moz-border-radius: 0px;
+text-align: center;
+}
+.A5WindowFooter {
+font: 9pt Tahoma, Arial;
+background: transparent;
+border: none;
+}
+.A5WindowResize {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: url(WindowTransHighlightBottom.png) top repeat-x;
+border: none;
+padding: 0px;
+margin-bottom: -4px;
+margin-top: 4px;
+padding: 4px;
+}
+.A5WindowButton {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: #d4d4d4 url(WindowButtonGrad.png) top repeat-x;
+border: solid 1px #555;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+
+
+.A5ListBoxTitle {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: #eee url(WindowMainGrad.png) top repeat-x;
+border: none;
+border-top: solid 1px #ccc;
+border-bottom: solid 1px #ccc;
+}
+.A5ListBoxItem, .A5TreeNode {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: #fff;
+border: none;
+padding: 2px;
+margin: 1px;
+}
+.A5ListBoxItem:hover, .A5TreeNode:hover {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: #e8f6fd url(ListHighlight.png) top repeat-x;
+border: 1px solid #d8f0fa;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+padding: 1px;
+margin: 1px;
+}
+.A5ListBoxItemSelected, .A5ListBoxItemSelected:hover, .A5TreeNodeSelected, .A5TreeNodeSelected:hover {
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: #d5effc url(ListSelected.png) top repeat-x;
+border: 1px solid #99defd;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+padding: 1px;
+margin: 1px;
+}
+.A5ListBoxSeparator {
+border: none;
+border-bottom: 1px solid #ddd;
+margin: 1px;
+padding: 0px;
+}
+.A5TreeNodeLabel{
+font: 9pt Tahoma, Arial;
+color: #000000;
+background: transparent;
+border: none;
+text-decoration: none;
+}
+
+
+
+.A5AccordionTitleOn, .A5AccordionTitleOff {
+display: block;
+padding: 2px;
+margin-bottom: 2px;
+font: 9pt Tahoma, Arial;
+font-weight: bold;
+color: #000;
+background: #c9c9c9 url(AccordionTitle.png) top repeat-x;
+border: 1px solid #778;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+text-decoration: none;
+cursor: pointer;
+}
+.A5AccordionTitleOn:hover, .A5AccordionTitleOff:hover {
+font: 9pt Tahoma, Arial;
+font-weight: bold;
+color: #000;
+background: #99defd url(AccordionTitleHover.png) top repeat-x;
+border: 1px solid #778;
+text-decoration: none;
+}
+.A5AccordionPane {
+margin-bottom: 2px;
+margin-top: -3px;
+background: #fff;
+border: 1px solid #778;
+-moz-border-radius: 0px 0px 2px 2px;
+-webkit-border-bottom-left-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+}
+
+.A5TabTopOn, .A5TabTopOff {
+display: block;
+float: left;
+font: 9pt Tahoma, Arial;
+font-weight: bold;
+color: #000;
+background: #eee url(WindowMainGrad.png) top repeat-x;
+border: 1px solid #778;
+border-bottom: none;
+-moz-border-radius: 2px 2px 0px 0px;
+-webkit-border-top-left-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+margin-right: 2px;
+padding: 2px;
+text-decoration: none;
+cursor: pointer;
+}
+.A5TabTopOn, .A5TabTopOn:hover {
+margin-bottom: -1px;
+padding-bottom: 3px;
+color: #000;
+border: 1px solid #778;
+border-top-color: #359bcb;
+border-bottom: none;
+background: #fff url(TabTopSelected.png) top repeat-x;
+}
+.A5TabTopOff:hover {
+color: #000;
+background: #d5effc url(ListSelected.png) top repeat-x;
+border: 1px solid #359bcb;
+border-bottom: none;
+}
+
+.A5TabBottomOn, .A5TabBottomOff {
+display: block;
+float: left;
+font: 9pt Tahoma, Arial;
+font-weight: bold;
+color: #000;
+background: #eee url(WindowMainGrad.png) top repeat-x;
+border: 1px solid #778;
+-moz-border-radius: 0px 0px 2px 2px;
+-webkit-border-bottom-left-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+margin-right: 2px;
+padding: 2px;
+text-decoration: none;
+cursor: pointer;
+}
+.A5TabBottomOn, .A5TabBottomOn:hover {
+padding-top: 3px;
+color: #000;
+border: 1px solid #778;
+border-bottom-color: #359bcb;
+border-top: none;
+background: #fff url(TabBottomSelected.png) bottom repeat-x;
+}
+.A5TabBottomOff:hover {
+color: #000;
+background: #d5effc url(ListSelected.png) top repeat-x;
+border: 1px solid #359bcb;
+border-top-color: #778;
+}
+
+.A5TabLeftOn, .A5TabLeftOff {
+display: block;
+font: 9pt Tahoma, Arial;
+font-weight: bold;
+color: #000;
+background: #eee url(WindowMainGrad.png) top repeat-x;
+border: 1px solid #778;
+-moz-border-radius: 2px 0px 0px 2px;
+-webkit-border-top-left-radius: 2px;
+-webkit-border-bottom-left-radius: 2px;
+margin-bottom: 2px;
+padding: 2px 4px;
+text-decoration: none;
+cursor: pointer;
+}
+.A5TabLeftOn, .A5TabLeftOn:hover {
+margin-right: -1px;
+padding-right: 5px;
+color: #000;
+border: 1px solid #778;
+border-left-color: #359bcb;
+border-right: none;
+background: #fff url(TabLeftSelected.png) left repeat-y;
+}
+.A5TabLeftOff:hover {
+color: #000;
+background: #d5effc url(ListSelected.png) top repeat-x;
+border: 1px solid #359bcb;
+border-right-color: #778;
+}
+
+
+.A5TabRightOn, .A5TabRightOff {
+display: block;
+font: 9pt Tahoma, Arial;
+font-weight: bold;
+color: #000;
+background: #eee url(WindowMainGrad.png) top repeat-x;
+border: 1px solid #778;
+border-left: none;
+-moz-border-radius: 0px 2px 2px 0px;
+-webkit-border-top-right-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+margin-bottom: 2px;
+padding: 2px 4px;
+text-decoration: none;
+cursor: pointer;
+}
+.A5TabRightOn, .A5TabRightOn:hover {
+margin-left: -1px;
+padding-left: 5px;
+color: #000;
+border: 1px solid #778;
+border-right-color: #359bcb;
+border-left: none;
+background: #fff url(TabRightSelected.png) right repeat-y;
+}
+.A5TabRightOff:hover {
+color: #000;
+background: #d5effc url(ListSelected.png) top repeat-x;
+border: 1px solid #359bcb;
+border-left: none;
+}
+
+.A5TabTopPane, .A5TabBottomPane, .A5TabLeftPane, .A5TabRightPane {
+background: #fff;
+border: 1px solid #778;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+
+
+
+.A5TabBand {
+border: 1px solid #778;
+background: #d7d7d7 url(TabbandBackground.png) top repeat-x;
+padding: 0px;
+}
+.A5TabBandTabOn, .A5TabBandTabOff {
+position: relative;
+display: block;
+font: 9pt Tahoma, Arial;
+font-weight: bold;
+color: #000;
+background: #eee url(WindowMainGrad.png) top repeat-x;
+border: 1px solid #778;
+border-bottom: none;
+-moz-border-radius: 2px 2px 0px 0px;
+-webkit-border-top-left-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+margin-right: 1px;
+margin-left: 1px;
+padding: 2px;
+text-decoration: none;
+cursor: pointer;
+white-space: nowrap;
+}
+.A5TabBandTabOn, .A5TabBandTabOn:hover {
+margin-bottom: -1px;
+padding-bottom: 3px;
+color: #000;
+border: 1px solid #778;
+border-top-color: #359bcb;
+border-bottom: none;
+background: #fff url(TabTopSelected.png) top repeat-x;
+}
+.A5TabBandTabOff:hover {
+color: #000;
+background: #d5effc url(ListSelected.png) top repeat-x;
+border: 1px solid #359bcb;
+border-bottom: none;
+}
+.A5TabBandSeparator {
+border: none;
+background: #fff;
+border-top: 1px solid #778;
+height: 3px;
+padding: 0px;
+font: 0pt arial;
+}
+.A5TabBandLeftScroll {
+position: relative;
+display: block;
+padding: 2px;
+margin-bottom: -1px;
+padding-bottom: 3px;
+text-decoration: none;
+background: #fff;
+border: 1px solid #778;
+-moz-border-radius: 0px 2px 0px 0px;
+-webkit-border-top-right-radius: 2px;
+border-left: none;
+border-bottom: none;
+}
+.A5TabBandRightScroll {
+position: relative;
+display: block;
+padding: 2px;
+margin-bottom: -1px;
+padding-bottom: 3px;
+text-decoration: none;
+background: #fff;
+border: 1px solid #778;
+-moz-border-radius: 2px 0px 0px 0px;
+-webkit-border-top-left-radius: 2px;
+border-right: none;
+border-bottom: none;
+}
+
+
+

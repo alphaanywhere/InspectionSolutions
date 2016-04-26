@@ -1,0 +1,28 @@
+{
+	"_id": "2018755",
+	"_icon": "",
+	"_ssL": "",
+	"_ssP": "",
+	"_initialUxComponent": "InspectionSolutions",
+	"_componentLastUpdated": "04/25/2016 02:19:56 00 pm",
+	"_ajaxUrl": "",
+	"_additionalFiles": "images\\*.*",
+	"_userName": "ndejwJeWyATSSkN3ZYnfMQ==",
+	"_pw": "b6ppSjABEooqhg/J2UTTTQ==",
+	"_token": "",
+	"timeout": {
+		"phoneGapBuild": "<default>",
+		"phoneGapBuildLogin": "<default>",
+		"getAppIcon": "<default>"
+	},
+	"apperian": {
+		"enableOptions": false,
+		"loginName": "osLnGM4pUcQ=",
+		"password": "c5JMXi9Y+Ko=",
+		"serverURL": "https://easesvc.apperian.com/ease.interface.php"
+	},
+	"backupConfigFile": true,
+	"useImageMagick": true,
+	"indexHTMLMetaTags": "",
+	"_sqlitedbdefined": false
+}

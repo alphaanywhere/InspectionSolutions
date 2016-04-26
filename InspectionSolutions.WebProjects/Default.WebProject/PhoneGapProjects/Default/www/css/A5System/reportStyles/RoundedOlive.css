@@ -1,0 +1,175 @@
+.reportColumnBoxColumn {
+border-style: solid;
+border-width: 1pt;
+border-color: #56872e;
+border-radius: 12pt;
+vertical-alignment: middle;
+}
+.reportColumnBoxRow {
+border-style: solid;
+border-width: 1pt;
+border-color: #56872e;
+border-radius: 12pt;
+vertical-alignment: middle;
+}
+.reportColumnCell {
+font-family: Arial;
+vertical-alignment: middle;
+padding: 3pt;
+}
+.reportColumnHeadingCell {
+font-family: Arial;
+color: #333333;
+background-color: #8bb36b;
+padding: 3pt;
+}
+.reportColumnFooterTotal {
+font-family: Arial;
+color: #000000;
+background-color: #b2cd9d;
+vertical-align: middle;
+padding: 3pt;
+}
+.reportColumnDetail {
+font-family: Arial;
+background-color: #ffffff;
+padding: 3pt;
+}
+.reportColumnDetailAlt, .ReportRowAlt td {
+font-family: Arial;
+padding: 3pt;
+}
+.reportColumnBoxColumnM {
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnL {
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #56872e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnR {
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #56872e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnT {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #56872e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnB {
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #56872e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnTL {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #56872e;
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #56872e;
+border-top-left-radius: 12pt;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnTR {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #56872e;
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #56872e;
+border-top-right-radius: 12pt;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnBL {
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #56872e;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #56872e;
+border-bottom-left-radius: 12pt;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnBR {
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #56872e;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #56872e;
+border-bottom-right-radius: 12pt;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowM {
+vertical-alignment: middle;
+}
+.reportColumnBoxRowL {
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #56872e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowR {
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #56872e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowT {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #56872e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowB {
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #56872e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowTL {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #56872e;
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #56872e;
+border-top-left-radius: 12pt;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowTR {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #56872e;
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #56872e;
+border-top-right-radius: 12pt;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowBL {
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #56872e;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #56872e;
+border-bottom-left-radius: 12pt;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowBR {
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #56872e;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #56872e;
+border-bottom-right-radius: 12pt;
+vertical-alignment: middle;
+}

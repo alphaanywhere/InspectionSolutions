@@ -1,0 +1,1870 @@
+@font-face {
+  font-family: 'A5_iOS7Icons';
+  src: url(A5_iOS7Icons.eot);
+  src: url(A5_iOS7Icons.eot) format("embedded-opentype"), url(A5_iOS7Icons.woff) format("woff"), url(A5_iOS7Icons.ttf) format("truetype"), url(A5_iOS7Icons.svg) format("svg"); }
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none; }
+
+button::-moz-focus-inner {
+  border-width: 0;
+  padding: 0; }
+
+.iOS7Page {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  color: #000; }
+
+.iOS7Heading {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #000; }
+
+.iOS7Text {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  color: #000; }
+
+.iOS7TextHighlight {
+  color: #007aff; }
+
+.iOS7Link {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  color: #333333; }
+
+.iOS7Group {
+  border: 1px solid #cccccc;
+  border-radius: 0px;
+  padding: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px; }
+
+.iOS7GroupLabel {
+  font: 12px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #333333;
+  background: #ededed;
+  border: 1px solid #cccccc;
+  width: 100%;
+  padding: 8px;
+  margin-left: -9px;
+  margin-right: -9px; }
+
+.iOS7UILock {
+  background: #000;
+  opacity: .5; }
+
+/* Grid */
+.iOS7Grid {
+  border: 1px solid #cccccc;
+  border-radius: 3px; }
+
+.iOS7GridHeader {
+  font: 12px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  color: #333333;
+  background: #ededed;
+  border-bottom: 1px solid #cccccc;
+  text-align: left;
+  padding: 0px 14px; }
+
+.iOS7GridHeader .iOS7Link, .iOS7GridHeader span {
+  font: 12px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #333333;
+  display: inline-block;
+  padding: 14px;
+  text-decoration: none;
+  cursor: default; }
+
+.iOS7GridFooter {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  color: #333333;
+  background: #ededed;
+  text-align: left;
+  padding: 0px 14px; }
+
+.iOS7GridFooter .iOS7Link, .iOS7GridFooter span {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif; }
+
+span.iOS7GridNav {
+  padding: 0px;
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif; }
+
+.iOS7GridSummaryLabel, .iOS7GridSummaryData {
+  font-size: 16px;
+  padding: 14px;
+  background: #ededed;
+  cursor: default; }
+
+.iOS7GridSummaryLabel {
+  font: 12px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #333333; }
+
+.iOS7GridQBE {
+  font-size: 16px;
+  padding: 14px;
+  border-bottom: 1px solid #cccccc;
+  background: #f7f7f7;
+  cursor: default; }
+
+.iOS7GridDataHeader {
+  font: 12px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #333333;
+  background: #ededed;
+  border-bottom: 1px solid #cccccc;
+  padding: 8px 14px; }
+
+.iOS7GridData, .iOS7GridRowHeader {
+  font-size: 16px;
+  padding: 14px;
+  border-bottom: 1px solid #cccccc;
+  background: #ffffff;
+  cursor: default; }
+
+.iOS7GridDataAlt {
+  font-size: 16px;
+  padding: 14px;
+  border-bottom: 1px solid #cccccc;
+  background: #fcfcfc;
+  cursor: default; }
+
+.iOS7GridRowSelected .iOS7GridData, .iOS7GridRowSelected .iOS7GridDataAlt {
+  background: #e6e6e6; }
+
+.iOS7GridDataError {
+  font-size: 16px;
+  padding: 14px;
+  color: #fd472a;
+  background: #fff6f4;
+  border-bottom: 1px solid #cccccc;
+  cursor: default; }
+
+.iOS7Grid > tbody > tr:last-child > td {
+  border: none; }
+
+.iOS7GridFormLabel, .iOS7GridFormData {
+  padding: 6px;
+  border-top: 1px solid #cccccc; }
+
+.iOS7GridFormLabel {
+  font-size: 14px;
+  font-weight: bold; }
+
+.iOS7GridFormDataError {
+  font-size: 16px;
+  padding: 6px;
+  color: #fd472a;
+  background: #fff6f4;
+  border-top: 1px solid #cccccc;
+  cursor: default; }
+
+tr:nth-child(1) .iOS7GridFormLabel, tr:nth-child(1) .iOS7GridFormData, tr:nth-child(1) .iOS7GridFormDataError {
+  border-top: none; }
+
+.iOS7GridForm .iOS7Edit, .iOS7GridForm .iOS7EditBG {
+  background: transparent;
+  border: none;
+  margin: 0px; }
+
+/* Dialog */
+.iOS7DialogLabel {
+  font: 14px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #333333;
+  padding: 6px; }
+
+.iOS7DialogRSSeparator {
+  border-top: 1px solid #b3b3b3;
+  margin-top: 6px;
+  line-height: 6px; }
+
+/* Buttons */
+.iOS7Button, .iOS7ButtonConfirm, .iOS7ButtonDeny, .iOS7ButtonDD {
+  font-size: 16px;
+  color: #007aff;
+  background: transparent;
+  border: 1px solid #007aff;
+  border-radius: 6px;
+  padding: 5px 9px;
+  margin: 2px;
+  outline: none;
+  vertical-align: middle; }
+
+.iOS7ButtonPressed, .iOS7ButtonDDPressed {
+  color: rgba(0, 122, 255, 0.5);
+  border: 1px solid rgba(0, 122, 255, 0.5); }
+
+.iOS7ButtonConfirm {
+  color: #4cd662;
+  border-color: #4cd662; }
+
+.iOS7ButtonConfirmPressed {
+  color: rgba(76, 214, 98, 0.5);
+  border: 1px solid rgba(76, 214, 98, 0.5); }
+
+.iOS7ButtonDeny {
+  color: #fd472a;
+  border-color: #fd472a; }
+
+.iOS7ButtonDenyPressed {
+  color: rgba(253, 71, 42, 0.5);
+  border: 1px solid rgba(253, 71, 42, 0.5); }
+
+.iOS7ButtonDD {
+  position: relative;
+  padding: 0px;
+  vertical-align: middle; }
+
+.iOS7ButtonDDContent, .iOS7ButtonDDSplitContent {
+  padding: 5px 9px; }
+
+.iOS7ButtonDDDropdown {
+  width: 32px; }
+
+.iOS7ButtonDDSplitDropdown {
+  border-left: #007aff 1px solid;
+  width: 32px; }
+
+.iOS7ButtonDDPressed .iOS7ButtonDDSplitDropdown {
+  border-left: 1px solid rgba(0, 0, 0, 0.25); }
+
+.iOS7ButtonDD:after {
+  content: "c";
+  display: block;
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  margin-top: -13px;
+  font: 24px A5_iOS7Icons; }
+
+.iOS7ButtonLeft, .iOS7ButtonRight {
+  position: relative;
+  font-size: 16px;
+  color: #007aff;
+  background: transparent;
+  border: none;
+  padding: 6px 10px;
+  margin: 2px;
+  outline: none;
+  vertical-align: middle; }
+
+.iOS7ButtonLeft {
+  padding-left: 32px; }
+
+.iOS7ButtonRight {
+  padding-right: 32px; }
+
+.iOS7ButtonLeftPressed, .iOS7ButtonRightPressed {
+  color: rgba(0, 122, 255, 0.5); }
+
+.iOS7ButtonLeft:after {
+  content: "a";
+  display: block;
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  margin-top: -14px;
+  font: 24px A5_iOS7Icons; }
+
+.iOS7ButtonRight:after {
+  content: "b";
+  display: block;
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  margin-top: -14px;
+  font: 24px A5_iOS7Icons; }
+
+.iOS7ButtonDisabled, .iOS7ButtonConfirmDisabled, .iOS7ButtonDenyDisabled, .iOS7ButtonDDDisabled, .iOS7ButtonDDDisabled .iOS7ButtonDDSplitDropdown {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25); }
+
+.iOS7ButtonGroupHF {
+  border-radius: 6px 0px 0px 6px;
+  margin-right: 0px;
+  border-right: none; }
+
+.iOS7ButtonGroupHM {
+  border-radius: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-right: none; }
+
+.iOS7ButtonGroupHL {
+  border-radius: 0px 6px 6px 0px;
+  margin-left: 0px; }
+
+.iOS7ButtonGroupVF {
+  border-radius: 6px 6px 0px 0px;
+  margin-bottom: 0px;
+  border-bottom: none;
+  width: 100%;
+  display: block; }
+
+.iOS7ButtonGroupVM {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-bottom: none;
+  width: 100%;
+  display: block; }
+
+.iOS7ButtonGroupVL {
+  border-radius: 0px 0px 6px 6px;
+  margin-top: 0px;
+  width: 100%;
+  display: block; }
+
+/* Edits */
+.iOS7Edit {
+  font-family: Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 14px;
+  outline: none; }
+
+select.iOS7Edit {
+  padding: 13px; }
+
+input.iOS7EditError, textarea.iOS7EditError, select.iOS7EditError {
+  color: #fd472a;
+  border-color: #fd472a;
+  background: #fff6f4; }
+
+input.iOS7EditWatermark, textarea.iOS7EditWatermark, select.iOS7EditWatermark {
+  color: gray; }
+
+input.iOS7EditWatermark.iOS7EditError, textarea.iOS7EditWatermark.iOS7EditError, select.iOS7EditWatermark.iOS7EditError {
+  color: #fd735d;
+  font-style: italic; }
+
+.iOS7EditRound {
+  border-radius: 24px;
+  padding: 6px 13px; }
+
+/* Edit Button Group */
+.iOS7EditBG {
+  font-size: 16px;
+  color: #333333;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.iOS7EditBGEdit {
+  font-size: 16px;
+  color: #333333;
+  border: none;
+  background: transparent;
+  padding: 14px;
+  outline: none; }
+
+.iOS7EditBGWatermark {
+  color: gray; }
+
+.iOS7EditBGError {
+  color: #fd472a;
+  border-color: #fd472a;
+  background: #fff6f4; }
+
+.iOS7EditBGError .iOS7EditBGEdit {
+  color: #fd472a; }
+
+.iOS7EditBGError .iOS7EditBGWatermark.iOS7EditBGEdit {
+  color: #fd735d;
+  font-style: italic; }
+
+/* List */
+.iOS7List {
+  border: 1px solid #cccccc;
+  border-radius: 3px; }
+
+.iOS7ListItem {
+  font-size: 16px;
+  padding: 14px;
+  border-bottom: 1px solid #cccccc;
+  background: #ffffff;
+  cursor: default;
+  outline: none; }
+
+.iOS7ListItemSelected {
+  background: #e6e6e6; }
+
+.iOS7ListTitle {
+  font: 12px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #333333;
+  background: #ededed;
+  border-bottom: 1px solid #cccccc;
+  padding: 8px 14px; }
+
+.iOS7ListSeparator {
+  height: 8px;
+  background: #ededed;
+  border-bottom: 1px solid #cccccc; }
+
+.iOS7ListHeader {
+  font: 12px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #333333;
+  background: #ededed;
+  border-bottom: 1px solid #cccccc;
+  padding: 0px 14px;
+  position: relative; }
+
+.iOS7ListHeader:not([style*="display: none"]) ~ div:after {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 4; }
+
+.iOS7ListHeader:not([style*="display: none"]) ~ div:before {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  left: 0px;
+  top: 1px;
+  background: rgba(0, 0, 0, 0.025);
+  z-index: 4; }
+
+.iOS7ListHeaderItem {
+  padding: 17px 0px;
+  padding-top: 16px;
+  padding-right: 40px;
+  cursor: default; }
+
+.iOS7ListHeaderItemResizeOverlay {
+  background: rgba(0, 0, 0, 0.25); }
+
+.iOS7ListGroupNav {
+  color: #000;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 4px;
+  border-radius: 4px;
+  cursor: default;
+  opacity: .5; }
+
+.iOS7ListGroupNavFocus {
+  opacity: 1; }
+
+.iOS7ListItemLabelMain {
+  font-weight: bold; }
+
+.iOS7ListItemLabelSub {
+  font-size: 14px; }
+
+.iOS7ListItemLabelContext {
+  font-size: 14px;
+  color: #007aff; }
+
+.iOS7ListItemLabelDetail {
+  font-size: 14px;
+  color: #ffffff;
+  background: gray;
+  padding: 2px 10px;
+  border-radius: 4px; }
+
+.iOS7ListItemContent {
+  font-size: 14px;
+  color: #4d4d4d; }
+
+.iOS7ListNavPrev {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  padding: 14px;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #cccccc;
+  cursor: default;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  z-index: 4; }
+
+.iOS7ListNavPrev:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.05); }
+
+.iOS7ListNavNext {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 14px;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid #cccccc;
+  cursor: default;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  z-index: 4; }
+
+.iOS7ListNavNext:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.05); }
+
+.iOS7ListNavPressed {
+  color: #007aff; }
+
+/* Scroller */
+.iOS7Scroller {
+  background: rgba(0, 0, 0, 0.05);
+  color: #ffffff;
+  cursor: default;
+  font-family: Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-size: 16px; }
+
+.iOS7ScrollerDial {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 6px; }
+
+.iOS7ScrollerSlider {
+  width: 14px; }
+
+.iOS7ScrollerSliderHandle {
+  background: rgba(0, 0, 0, 0.35);
+  width: 14px;
+  height: 40px; }
+
+.iOS7ScrollerSliderShadow {
+  background: rgba(0, 0, 0, 0.2);
+  width: 14px;
+  height: 40px;
+  border: rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.iOS7ScrollerSliderMsg {
+  position: absolute;
+  right: 20px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+  padding: 6px;
+  white-space: nowrap; }
+
+.iOS7ScrollerSliderMsgT {
+  top: 0px; }
+
+.iOS7ScrollerSliderMsgL {
+  left: 0px; }
+
+.iOS7ScrollerSliderMsgR {
+  right: 0px; }
+
+.iOS7ScrollerSliderMsgB {
+  bottom: 0px; }
+
+.iOS7ScrollerSliderMsgT:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -10px;
+  top: 7px;
+  border: 5px solid transparent;
+  border-left-color: rgba(0, 0, 0, 0.35); }
+
+.iOS7ScrollerSliderMsgL:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 7px;
+  border: 5px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.35); }
+
+.iOS7ScrollerSliderMsgR:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  right: 7px;
+  border: 5px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.35); }
+
+.iOS7ScrollerSliderMsgB:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -10px;
+  bottom: 7px;
+  border: 5px solid transparent;
+  border-left-color: rgba(0, 0, 0, 0.35); }
+
+/* Spin List */
+.iOS7SpinList {
+  background: #ffffff;
+  color: #000;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 12px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  vertical-align: top;
+  cursor: default; }
+
+.iOS7SpinList:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  height: 32px;
+  margin-top: -18px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6; }
+
+.iOS7SpinList:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url("spinlistOver.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px; }
+
+.iOS7SpinListItem {
+  font-size: 16px;
+  padding: 6px; }
+
+.iOS7SpinListGroup {
+  padding: 0px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.iOS7SpinListGroup .iOS7SpinList {
+  display: inline-block;
+  border: none;
+  border-right: 1px solid #cccccc;
+  border-radius: 0px; }
+
+.iOS7SpinListGroup .iOS7SpinList:last-child {
+  border: none; }
+
+.iOS7SpinListGroup .iOS7SpinList:after {
+  border-radius: 0px; }
+
+/* Tree */
+.iOS7Tree {
+  border: 1px solid #cccccc;
+  border-radius: 3px; }
+
+.iOS7TreeNode {
+  font-size: 16px;
+  border-bottom: 1px solid #cccccc;
+  cursor: default;
+  overflow: hidden;
+  outline: none; }
+
+.iOS7TreeNodeSelected {
+  background: #e6e6e6; }
+
+.iOS7TreeNodeLabel {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  padding: 14px;
+  padding-bottom: 15px;
+  cursor: default;
+  width: 100%;
+  outline: none; }
+
+.iOS7TreeNode .iOS7IconBtn {
+  margin-top: -4px; }
+
+/* Slider */
+.iOS7Slider {
+  padding: 18px 20px;
+  padding-right: 22px;
+  margin: 8px 2px; }
+
+.iOS7SliderInner {
+  height: 3px;
+  background: #b3b3b3;
+  border-radius: 3px; }
+
+.iOS7SliderHandle {
+  height: 34px;
+  width: 35px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 17px;
+  margin-left: -17px;
+  margin-top: -17px;
+  box-shadow: 0px 3px 3px #b3b3b3;
+  -moz-box-shadow: 0px 3px 3px #b3b3b3;
+  -webkit-box-shadow: 0px 3px 3px #b3b3b3; }
+
+.iOS7SliderRange {
+  height: 3px;
+  margin: -1px;
+  background: #0b8adc;
+  border-radius: 3px; }
+
+/* Switch */
+.iOS7Switch {
+  border: 1px solid #b3b3b3;
+  border-radius: 19px;
+  height: 36px;
+  padding: 0px;
+  margin: 8px 2px;
+  cursor: default; }
+
+.iOS7SwitchOn {
+  color: #ffffff;
+  background: #4bd762;
+  border-color: #4bd762; }
+
+.iOS7SwitchLeft {
+  padding: 8px;
+  padding-right: 29px;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.iOS7SwitchRight {
+  padding: 8px;
+  padding-left: 29px;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.iOS7SwitchInner {
+  margin: 0px 18px;
+  margin-right: 20px; }
+
+.iOS7SwitchButton {
+  height: 34px;
+  width: 35px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 17px;
+  margin-left: -17px;
+  box-shadow: 0px 3px 3px #b3b3b3;
+  -moz-box-shadow: 0px 3px 3px #b3b3b3;
+  -webkit-box-shadow: 0px 3px 3px #b3b3b3; }
+
+.iOS7SwitchOn .iOS7SwitchButton {
+  box-shadow: 0px 3px 3px #197027;
+  -moz-box-shadow: 0px 3px 3px #197027;
+  -webkit-box-shadow: 0px 3px 3px #197027; }
+
+/* Date Picker */
+.iOS7DP {
+  background: #ffffff; }
+
+.iOS7DPHeaderButton {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px;
+  color: #ff3b30;
+  text-decoration: none;
+  cursor: default;
+  outline: none; }
+
+.iOS7DPDaysOfWeek {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 6px; }
+
+.iOS7DPWeeksOfYear {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 6px;
+  color: rgba(0, 0, 0, 0.25); }
+
+.iOS7DPDate {
+  padding: 0px; }
+
+.iOS7DPItem {
+  display: block;
+  font-size: 16px;
+  padding: 14px;
+  color: #000;
+  border-top: 1px solid #cccccc;
+  background: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  cursor: default;
+  outline: none; }
+
+.iOS7DPDateToday .iOS7DPItem {
+  color: #ff3b30; }
+
+.iOS7DPItemSelected {
+  color: #ffffff;
+  background: #ff3b30; }
+
+.iOS7DPDateToday .iOS7DPItemSelected {
+  color: #ffffff; }
+
+.iOS7DPItemDisabled {
+  color: rgba(0, 0, 0, 0.25); }
+
+.iOS7DPItemOutOfRange {
+  color: rgba(0, 0, 0, 0.5);
+  border-top: none; }
+
+.iOS7DPPanelItem {
+  display: block;
+  font-size: 16px;
+  padding: 14px;
+  color: #000;
+  background: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  cursor: default;
+  outline: none; }
+
+.iOS7DPPanelItemSelected {
+  color: #ffffff;
+  background: #ff3b30; }
+
+.iOS7DPPanelItemDisabled {
+  color: rgba(0, 0, 0, 0.25); }
+
+/* TimePicker */
+.iOS7TP .iOS7Edit {
+  text-align: center; }
+
+.iOS7TPEditButton {
+  text-align: center;
+  cursor: default; }
+
+.iOS7TPMeridianButton {
+  color: #ff3b30;
+  font-size: 16px;
+  padding: 14px;
+  cursor: default; }
+
+/* ControlGroups */
+.iOS7ControlGroupRow {
+  padding: 6px;
+  border-top: 1px solid #cccccc; }
+
+.iOS7ControlGroupRowFirst {
+  border-top: none; }
+
+.iOS7ControlGroup .iOS7DialogLabel {
+  padding: 16px; }
+
+.iOS7ControlGroup .iOS7Edit, .iOS7ControlGroup .iOS7EditBG {
+  background: transparent;
+  border: none;
+  margin: 0px; }
+
+/* Windows */
+.iOS7Win {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #bfbfbf;
+  border-radius: 6px; }
+
+.iOS7WinInner {
+  border-radius: 6px;
+  overflow: hidden; }
+
+.iOS7WinTitle, .iOS7WinHeader, .iOS7WinTBar, .iOS7WinBody, .iOS7WinBBar, .iOS7WinFooter {
+  padding: 6px; }
+
+.iOS7WinButtons {
+  border-top: 1px solid #bfbfbf;
+  text-align: center;
+  font-size: 0px; }
+
+.iOS7WinResizer {
+  color: #a6a6a6; }
+
+.iOS7WinButtons .iOS7Button {
+  border: none;
+  border-right: 1px solid #bfbfbf;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 10px; }
+
+.iOS7WinButtons .iOS7Button:first-child {
+  border-left: 1px solid #bfbfbf; }
+
+.iOS7WinButtons .iOS7ButtonPressed {
+  color: #007aff;
+  background: #ffffff; }
+
+.iOS7DDWinPointerDown {
+  border-top: 10px solid rgba(255, 255, 255, 0.85);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: -10px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  bottom: -10px; }
+
+.iOS7WinPointerUp {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgba(255, 255, 255, 0.85);
+  margin-left: -10px;
+  top: -10px;
+  left: 50%;
+  width: 0;
+  height: 0; }
+
+.iOS7DDWinPointerLeft {
+  border-top: 10px solid transparent;
+  border-right: 10px solid rgba(255, 255, 255, 0.85);
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  left: -10px;
+  width: 0;
+  height: 0; }
+
+.iOS7DDWinPointerRight {
+  border-top: 10px solid transparent;
+  border-left: 10px solid rgba(255, 255, 255, 0.85);
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  right: -10px;
+  width: 0;
+  height: 0; }
+
+.iOS7DDWin {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px; }
+
+.iOS7DDWinInner {
+  border-radius: 6px;
+  overflow: hidden; }
+
+.iOS7DDWinTitle, .iOS7DDWinHeader, .iOS7DDWinTBar, .iOS7DDWinBody, .iOS7DDWinBBar, .iOS7DDWinFooter {
+  padding: 6px; }
+
+.iOS7DDWinButtons {
+  border-top: 1px solid #d9d9d9;
+  text-align: center; }
+
+.iOS7DDWinResizer {
+  color: #bfbfbf; }
+
+.iOS7DDWinButtons .iOS7Button {
+  border: none;
+  border-right: 1px solid #d9d9d9;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 10px; }
+
+.iOS7DDWinButtons .iOS7Button:first-child {
+  border-left: 1px solid #d9d9d9; }
+
+.iOS7DDWinButtons .iOS7ButtonPressed {
+  color: rgba(0, 122, 255, 0.5); }
+
+.iOS7DDWinPointerDown {
+  border-top: 10px solid #d9d9d9;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: -10px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  bottom: -10px; }
+
+.iOS7DDWinPointerDown:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-top: 10px solid #ffffff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: -10px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  bottom: 1px; }
+
+.iOS7DDWinPointerUp {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #d9d9d9;
+  margin-left: -10px;
+  top: -10px;
+  left: 50%;
+  width: 0;
+  height: 0; }
+
+.iOS7DDWinPointerUp:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  margin-left: -10px;
+  top: 1px;
+  left: 50%;
+  width: 0;
+  height: 0; }
+
+.iOS7DDWinPointerLeft {
+  border-top: 10px solid transparent;
+  border-right: 10px solid #d9d9d9;
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  left: -10px;
+  width: 0;
+  height: 0; }
+
+.iOS7DDWinPointerLeft:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-top: 10px solid transparent;
+  border-right: 10px solid #ffffff;
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  left: 1px;
+  width: 0;
+  height: 0; }
+
+.iOS7DDWinPointerRight {
+  border-top: 10px solid transparent;
+  border-left: 10px solid #d9d9d9;
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  right: -10px;
+  width: 0;
+  height: 0; }
+
+.iOS7DDWinPointerRight:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-top: 10px solid transparent;
+  border-left: 10px solid #ffffff;
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  right: 1px;
+  width: 0;
+  height: 0; }
+
+/* Menu */
+.iOS7Menu {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px; }
+
+.iOS7MenuInner {
+  border-radius: 6px;
+  overflow: hidden; }
+
+.iOS7MenuItem {
+  font-size: 16px;
+  color: #007aff;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 0px;
+  cursor: default;
+  white-space: nowrap; }
+
+.iOS7MenuItem > span {
+  padding: 14px; }
+
+.iOS7MenuItemSelected {
+  color: rgba(0, 122, 255, 0.5);
+  color: #ffffff;
+  background: #007aff; }
+
+.iOS7MenuItemDisabled {
+  color: rgba(0, 0, 0, 0.25); }
+
+.iOS7MenuItemCascade {
+  position: relative;
+  padding-right: 30px; }
+
+.iOS7MenuItemCascade:after {
+  content: "b";
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -14px;
+  font: 24px A5_iOS7Icons; }
+
+.iOS7MenuTitle {
+  font: 12px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #666666;
+  border-bottom: 1px solid #cccccc;
+  padding: 8px 14px; }
+
+.iOS7MenuSeparator {
+  height: 2px; }
+
+.iOS7MenuPointerDown {
+  border-top: 10px solid #d9d9d9;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: -10px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  bottom: -10px; }
+
+.iOS7MenuPointerDown:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-top: 10px solid #ffffff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: -10px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  bottom: 1px; }
+
+.iOS7MenuPointerUp {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #d9d9d9;
+  margin-left: -10px;
+  top: -10px;
+  left: 50%;
+  width: 0;
+  height: 0; }
+
+.iOS7MenuPointerUp:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  margin-left: -10px;
+  top: 1px;
+  left: 50%;
+  width: 0;
+  height: 0; }
+
+.iOS7MenuPointerLeft {
+  border-top: 10px solid transparent;
+  border-right: 10px solid #d9d9d9;
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  left: -10px;
+  width: 0;
+  height: 0; }
+
+.iOS7MenuPointerLeft:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-top: 10px solid transparent;
+  border-right: 10px solid #ffffff;
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  left: 1px;
+  width: 0;
+  height: 0; }
+
+.iOS7MenuPointerRight {
+  border-top: 10px solid transparent;
+  border-left: 10px solid #d9d9d9;
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  right: -10px;
+  width: 0;
+  height: 0; }
+
+.iOS7MenuPointerRight:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-top: 10px solid transparent;
+  border-left: 10px solid #ffffff;
+  border-bottom: 10px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  right: 1px;
+  width: 0;
+  height: 0; }
+
+/* Panels */
+.iOS7PanelCard {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  color: #000;
+  background: #ffffff;
+  border-right: 1px solid #999999; }
+
+.iOS7PanelHeader {
+  font: 24px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  background: whitesmoke;
+  border-bottom: 1px solid #999999;
+  padding: 8px; }
+
+.iOS7PanelFooter {
+  font: 24px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  background: whitesmoke;
+  border-top: 1px solid #999999;
+  padding: 8px; }
+
+.iOS7PanelHeader .iOS7Heading, .iOS7PanelFooter .iOS7Heading {
+  font: 24px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  padding: 2px; }
+
+.iOS7PanelHeader .iOS7Text, .iOS7PanelFooter .iOS7Text {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  padding: 6px; }
+
+.iOS7PanelNavInd {
+  font-size: 0px;
+  padding: 2px; }
+
+.iOS7PanelNavIndButton {
+  background: #999999;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2px; }
+
+.iOS7PanelNavIndButtonSelected {
+  background: #007aff; }
+
+.iOS7PanelHeader .iOS7Button, .iOS7PanelHeader .iOS7ButtonConfirm, .iOS7PanelHeader .iOS7ButtonDeny, .iOS7PanelHeader .iOS7ButtonLeft, .iOS7PanelHeader .iOS7ButtonRight, .iOS7PanelFooter .iOS7Button, .iOS7PanelFooter .iOS7ButtonConfirm, .iOS7PanelFooter .iOS7ButtonDeny, .iOS7PanelFooter .iOS7ButtonLeft, .iOS7PanelFooter .iOS7ButtonRight {
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  margin: 0px; }
+
+.iOS7PanelHeader .iOS7ButtonGroupHF, .iOS7PanelFooter .iOS7ButtonGroupHF {
+  border: 1px solid #007aff;
+  border-radius: 6px 0px 0px 6px;
+  margin: 0px;
+  padding: 4px 8px; }
+
+.iOS7PanelHeader .iOS7ButtonGroupHM, .iOS7PanelFooter .iOS7ButtonGroupHM {
+  border: 1px solid #007aff;
+  border-left: none;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 4px 8px; }
+
+.iOS7PanelHeader .iOS7ButtonGroupHL, .iOS7PanelFooter .iOS7ButtonGroupHL {
+  border: 1px solid #007aff;
+  border-left: none;
+  border-radius: 0px 6px 6px 0px;
+  margin: 0px;
+  padding: 4px 8px; }
+
+.iOS7PanelHeader .iOS7ButtonPressed.iOS7ButtonGroupHF, .iOS7PanelFooter .iOS7ButtonPressed.iOS7ButtonGroupHF,
+.iOS7PanelHeader .iOS7ButtonPressed.iOS7ButtonGroupHM, .iOS7PanelFooter .iOS7ButtonPressed.iOS7ButtonGroupHM,
+.iOS7PanelHeader .iOS7ButtonPressed.iOS7ButtonGroupHL, .iOS7PanelFooter .iOS7ButtonPressed.iOS7ButtonGroupHL {
+  color: #ffffff;
+  background: #007aff; }
+
+.iOS7PanelHeader .iOS7ButtonDisabled.iOS7ButtonGroupHF, .iOS7PanelFooter .iOS7ButtonDisabled.iOS7ButtonGroupHF,
+.iOS7PanelHeader .iOS7ButtonDisabled.iOS7ButtonGroupHM, .iOS7PanelFooter .iOS7ButtonDisabled.iOS7ButtonGroupHM,
+.iOS7PanelHeader .iOS7ButtonDisabled.iOS7ButtonGroupHL, .iOS7PanelFooter .iOS7ButtonDisabled.iOS7ButtonGroupHL {
+  border-color: rgba(0, 0, 0, 0.25); }
+
+.iOS7PanelCard > .iOS7PanelBody {
+  position: relative; }
+
+.iOS7PanelCard > .iOS7PanelBody:after {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 4; }
+
+.iOS7PanelCard > .iOS7PanelBody:before {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  left: 0px;
+  top: 1px;
+  background: rgba(0, 0, 0, 0.025);
+  z-index: 4; }
+
+.iOS7AppBar {
+  padding: 0px;
+  text-align: center; }
+  .iOS7AppBar .iOS7Button {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 14px;
+    border: none;
+    border-radius: 0px; }
+  .iOS7AppBar .iOS7ButtonPressed {
+    color: #007aff; }
+
+/* Tabs */
+/* top and bottom */
+.iOS7TabTBand,
+.iOS7TabBBand {
+  text-align: center;
+  font-size: 0px; }
+
+.iOS7TabTButton, .iOS7TabTButtonSelected, .iOS7TabTButtonDisabled,
+.iOS7TabBButton, .iOS7TabBButtonSelected, .iOS7TabBButtonDisabled {
+  font-size: 16px;
+  color: #007aff;
+  background: transparent;
+  border: 1px solid #007aff;
+  border-left: none;
+  border-radius: 0px;
+  padding: 5px 9px;
+  outline: none;
+  text-decoration: none;
+  display: inline-block; }
+
+.iOS7TabTButton:first-child, .iOS7TabTButtonSelected:first-child, .iOS7TabTButtonDisabled:first-child,
+.iOS7TabBButton:first-child, .iOS7TabBButtonSelected:first-child, .iOS7TabBButtonDisabled:first-child {
+  border-radius: 6px 0px 0px 6px;
+  border: 1px solid #007aff; }
+
+.iOS7TabTButton:last-of-type, .iOS7TabTButtonSelected:last-of-type, .iOS7TabTButtonDisabled:last-of-type,
+.iOS7TabBButton:last-of-type, .iOS7TabBButtonSelected:last-of-type, .iOS7TabBButtonDisabled:last-of-type {
+  border-radius: 0px 6px 6px 0px; }
+
+.iOS7TabTButtonSelected,
+.iOS7TabBButtonSelected {
+  color: #ffffff;
+  background: #007aff; }
+
+.iOS7TabTButtonDisabled,
+.iOS7TabBButtonDisabled {
+  color: rgba(0, 0, 0, 0.25); }
+
+.iOS7TabTPane {
+  margin-top: 6px; }
+
+.iOS7TabBPane {
+  margin-bottom: 6px; }
+
+/* left and right */
+.iOS7TabLBand,
+.iOS7TabRBand {
+  font-size: 0px; }
+
+.iOS7TabLButton, .iOS7TabLButtonSelected, .iOS7TabLButtonDisabled,
+.iOS7TabRButton, .iOS7TabRButtonSelected, .iOS7TabRButtonDisabled {
+  font-size: 16px;
+  color: #007aff;
+  background: transparent;
+  border: 1px solid #007aff;
+  border-top: none;
+  border-radius: 0px;
+  padding: 5px 9px;
+  outline: none;
+  text-decoration: none;
+  display: block; }
+
+.iOS7TabLButton:first-child, .iOS7TabLButtonSelected:first-child, .iOS7TabLButtonDisabled:first-child,
+.iOS7TabRButton:first-child, .iOS7TabRButtonSelected:first-child, .iOS7TabRButtonDisabled:first-child {
+  border-radius: 6px 6px 0px 0px;
+  border: 1px solid #007aff; }
+
+.iOS7TabLButton:last-of-type, .iOS7TabLButtonSelected:last-of-type, .iOS7TabLButtonDisabled:last-of-type,
+.iOS7TabRButton:last-of-type, .iOS7TabRButtonSelected:last-of-type, .iOS7TabRButtonDisabled:last-of-type {
+  border-radius: 0px 0px 6px 6px; }
+
+.iOS7TabLButtonSelected,
+.iOS7TabRButtonSelected {
+  color: #ffffff;
+  background: #007aff; }
+
+.iOS7TabLButtonDisabled,
+.iOS7TabRButtonDisabled {
+  color: rgba(0, 0, 0, 0.25); }
+
+.iOS7TabLPane {
+  margin-left: 6px; }
+
+.iOS7TabRPane {
+  margin-right: 6px; }
+
+/* Accordion */
+.iOS7Accordion {
+  border: 1px solid #cccccc;
+  border-bottom: none; }
+
+.iOS7AccordionButton, .iOS7AccordionButtonSelected, .iOS7AccordionButtonDisabled {
+  font: 12px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  font-weight: bold;
+  color: #333333;
+  background: #ededed;
+  border-bottom: 1px solid #cccccc;
+  padding: 14px;
+  outline: none;
+  text-decoration: none;
+  display: block; }
+
+.iOS7AccordionButton:after {
+  content: 'b';
+  display: block;
+  float: left;
+  font: 16px A5_iOS7Icons;
+  margin-top: -2px;
+  margin-right: 6px; }
+
+.iOS7AccordionButtonSelected:after {
+  content: 'c';
+  display: block;
+  float: left;
+  font: 16px A5_iOS7Icons;
+  margin-top: -2px;
+  margin-right: 6px; }
+
+.iOS7AccordionButtonDisabled {
+  color: rgba(0, 0, 0, 0.25); }
+
+.iOS7AccordionPane {
+  padding: 6px;
+  border-bottom: 1px solid #cccccc; }
+
+/* Tabband */
+.iOS7Tabband {
+  font-size: 16px; }
+
+.iOS7TabbandButton, .iOS7TabbandButtonSelected, .iOS7TabbandButtonDisabled {
+  color: gray;
+  background: transparent;
+  padding: 14px;
+  outline: none;
+  text-decoration: none;
+  white-space: nowrap;
+  display: block;
+  position: relative; }
+
+.iOS7TabbandButtonSelected {
+  color: #007aff; }
+
+.iOS7TabbandButtonDisabled {
+  color: rgba(0, 0, 0, 0.25); }
+
+.iOS7TabbandClose {
+  color: #fd472a; }
+
+.iOS7TabbandIcon .iOS7TabbandButton, .iOS7TabbandIcon .iOS7TabbandButtonSelected, .iOS7TabbandIcon .iOS7TabbandButtonDisabled {
+  font-size: 10px;
+  padding: 6px; }
+
+/* Ink */
+.iOS7Ink {
+  border: 1px solid #cccccc;
+  border-radius: 3px; }
+
+.iOS7InkArea {
+  background: #f2f2f2; }
+
+.iOS7InkPage {
+  background: #fff;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 3px 3px #e6e6e6;
+  -moz-box-shadow: 0px 3px 3px #e6e6e6;
+  -webkit-box-shadow: 0px 3px 3px #e6e6e6; }
+
+.iOS7InkZoomBox {
+  border: 1px dotted #007aff; }
+
+.iOS7InkZoomBoxScale:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  display: block;
+  border: 5px solid transparent;
+  border-bottom-color: rgba(0, 122, 255, 0.5);
+  border-right-color: rgba(0, 122, 255, 0.5); }
+
+.iOS7InkSplitBar {
+  background: #e6e6e6; }
+
+.iOS7InkEraser {
+  border: 1px solid rgba(255, 100, 150, 0.5);
+  border-radius: 3px;
+  background: rgba(255, 100, 150, 0.1); }
+
+.iOS7InkButton {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  border: 1px solid #cccccc;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.9);
+  vertical-align: top;
+  line-height: 31px;
+  text-align: center;
+  color: #666666;
+  stroke: #666666;
+  fill: #666666; }
+
+.iOS7InkButton .iOS7Icon {
+  vertical-align: bottom; }
+
+.iOS7InkButtonSelected {
+  border-color: gray;
+  color: #1a1a1a;
+  stroke: #1a1a1a;
+  fill: #1a1a1a; }
+
+.iOS7InkBarTop {
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #cccccc; }
+
+.iOS7InkBarLeft {
+  background: rgba(255, 255, 255, 0.9);
+  border-right: 1px solid #cccccc; }
+
+.iOS7InkBarRight {
+  background: rgba(255, 255, 255, 0.9);
+  border-left: 1px solid #cccccc; }
+
+.iOS7InkBarBottom {
+  background: rgba(255, 255, 255, 0.9);
+  border-top: 1px solid #cccccc; }
+
+.iOS7InkGroupTop, .iOS7InkGroupBottom, .iOS7InkGroupLeft, .iOS7InkGroupRight {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #cccccc; }
+
+.iOS7InkGroupTop {
+  border-top: none;
+  border-radius: 0px 0px 4px 4px; }
+
+.iOS7InkGroupBottom {
+  border-bottom: none;
+  border-radius: 4px 4px 0px 0px; }
+
+.iOS7InkGroupLeft {
+  border-left: none;
+  border-radius: 0px 4px 4px 0px; }
+
+.iOS7InkGroupRight {
+  border-right: none;
+  border-radius: 4px 0px 0px 4px; }
+
+.iOS7InkBarTop .iOS7InkButton, .iOS7InkBarBottom .iOS7InkButton, .iOS7InkBarLeft .iOS7InkButton, .iOS7InkBarRight .iOS7InkButton, .iOS7InkGroupTop .iOS7InkButton, .iOS7InkGroupBottom .iOS7InkButton, .iOS7InkGroupLeft .iOS7InkButton, .iOS7InkGroupRight .iOS7InkButton {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0px; }
+
+.iOS7InkBarTop .iOS7InkButtonSelected, .iOS7InkBarBottom .iOS7InkButtonSelected, .iOS7InkBarLeft .iOS7InkButtonSelected, .iOS7InkBarRight .iOS7InkButtonSelected, .iOS7InkGroupTop .iOS7InkButtonSelected, .iOS7InkGroupBottom .iOS7InkButtonSelected, .iOS7InkGroupLeft .iOS7InkButtonSelected, .iOS7InkGroupRight .iOS7InkButtonSelected {
+  background: #e6e6e6; }
+
+.iOS7InkStatus {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 4px;
+  border-radius: 4px; }
+
+.iOS7InkPopup {
+  font: 16px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px; }
+
+.iOS7InkPopupLock {
+  background: rgba(0, 0, 0, 0.1); }
+
+.iOS7InkPopupGroup {
+  padding: 4px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #e6e6e6; }
+
+.iOS7InkPopupSwatch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  border: 1px solid #cccccc;
+  border-radius: 22px;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 4px; }
+
+.iOS7InkPopupSwatchSelected {
+  border: 2px solid #007aff;
+  border-radius: 23px;
+  margin: -1px;
+  margin-bottom: 3px; }
+
+.iOS7InkPopupSwatchSelected:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px solid #fff;
+  border-radius: 20px; }
+
+.iOS7InkPopupButton {
+  font-size: 16px;
+  color: #007aff;
+  padding: 14px;
+  text-align: center; }
+
+/* Scroll Indicator */
+.iOS7ScrollIndH, .iOS7ScrollIndV {
+  height: 5px;
+  width: 5px;
+  padding: 0px; }
+
+.iOS7ScrollIndHBar, .iOS7ScrollIndVBar {
+  background: #000;
+  opacity: .5;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px; }
+
+/* Icons */
+.iOS7Icon, .iOS7IconSm, .iOS7IconBtn {
+  font-style: normal;
+  cursor: default;
+  display: inline-block;
+  position: relative;
+  font: 22px A5_iOS7Icons;
+  width: 24px;
+  height: 24px; }
+
+.iOS7IconSm {
+  font: 16px A5_iOS7Icons;
+  width: 18px;
+  height: 18px; }
+
+.iOS7IconBtn {
+  padding: 10px; }
+
+.iOS7IconDisabled {
+  opacity: .5; }
+
+.iOS7IconLeft:after {
+  display: block;
+  position: absolute;
+  content: "a"; }
+
+.iOS7IconRight:after {
+  display: block;
+  position: absolute;
+  content: "b"; }
+
+.iOS7IconUp:after {
+  display: block;
+  position: absolute;
+  content: "d"; }
+
+.iOS7IconDown:after {
+  display: block;
+  position: absolute;
+  content: "c"; }
+
+.iOS7IconClose:after {
+  display: block;
+  position: absolute;
+  content: "e"; }
+
+.iOS7IconResizeThumb:after {
+  display: block;
+  position: absolute;
+  content: "f"; }
+
+.iOS7IconRadio:after {
+  display: block;
+  position: absolute;
+  content: "g"; }
+
+.iOS7IconCheck:after {
+  display: block;
+  position: absolute;
+  content: "h"; }
+
+.iOS7IconAdd:after {
+  display: block;
+  position: absolute;
+  content: "i"; }
+
+.iOS7IconRemove:after {
+  display: block;
+  position: absolute;
+  content: "j"; }
+
+.iOS7IconUndo:after {
+  display: block;
+  position: absolute;
+  content: "k"; }
+
+.iOS7IconRedo:after {
+  display: block;
+  position: absolute;
+  content: "l"; }
+
+.iOS7IconEdit:after {
+  display: block;
+  position: absolute;
+  content: "m"; }
+
+.iOS7IconCancel:after {
+  display: block;
+  position: absolute;
+  content: "n"; }
+
+.iOS7IconDelete:after {
+  display: block;
+  position: absolute;
+  content: "o"; }
+
+.iOS7IconCancelEdit:after {
+  display: block;
+  position: absolute;
+  content: "p"; }
+
+.iOS7IconNew:after {
+  display: block;
+  position: absolute;
+  content: "q"; }
+
+.iOS7IconCancelNew:after {
+  display: block;
+  position: absolute;
+  content: "r"; }
+
+.iOS7IconSave:after {
+  display: block;
+  position: absolute;
+  content: "s"; }
+
+.iOS7IconLoad:after {
+  display: block;
+  position: absolute;
+  content: "t"; }
+
+.iOS7IconSaveAndEnter:after {
+  display: block;
+  position: absolute;
+  content: "u"; }
+
+.iOS7IconRefresh:after {
+  display: block;
+  position: absolute;
+  content: "v"; }
+
+.iOS7IconSearch:after {
+  display: block;
+  position: absolute;
+  content: "w"; }
+
+.iOS7IconFilter:after {
+  display: block;
+  position: absolute;
+  content: "x"; }
+
+.iOS7IconFirst:after {
+  display: block;
+  position: absolute;
+  content: "y"; }
+
+.iOS7IconLast:after {
+  display: block;
+  position: absolute;
+  content: "z"; }
+
+.iOS7IconInfo:after {
+  display: block;
+  position: absolute;
+  content: "A"; }
+
+.iOS7IconHelp:after {
+  display: block;
+  position: absolute;
+  content: "B"; }
+
+.iOS7IconError:after {
+  display: block;
+  position: absolute;
+  content: "C"; }
+
+.iOS7IconWarning:after {
+  display: block;
+  position: absolute;
+  content: "D"; }
+
+.iOS7IconMenu:after {
+  display: block;
+  position: absolute;
+  content: "E"; }
+
+/* container padding */
+.iOS7PanelHeader .A5Container, .iOS7PanelFooter .A5Container, .iOS7PanelTopHeader .A5Container, .iOS7PanelTopFooter .A5Container, .iOS7PanelHeader .A5CWLayout, .iOS7PanelFooter .A5CWLayout, .iOS7PanelTopHeader .A5CWLayout, .iOS7PanelTopFooter .A5CWLayout {
+  padding: 0px; }

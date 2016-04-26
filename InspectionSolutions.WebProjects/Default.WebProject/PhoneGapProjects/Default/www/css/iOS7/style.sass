@@ -1,0 +1,1888 @@
+$fontFamily: Helvetica Neue,HelveticaNeue,Helvetica-Neue,Helvetica,BBAlpha Sans,sans-serif; // *AA:Font|Family|fontFamily|The font family.
+$primary: #000; // *AA:Colors|Primary Foreground|color|The main foreground color in the style.
+$primaryBack: #ffffff; // *AA:Colors|Primary Background|color|The main background color in the style.
+$error: #fd472a; // *AA:Colors|Error|color|The error color.
+$accent: #007aff; // *AA:Colors|Accent|color|The accent color in the style.
+$confirm: #4cd662; // *AA:Colors|Confirm|color|The confirm color in the style.
+$deny: #fd472a; // *AA:Colors|Deny|color|The deny color in the style.
+$sliderBack: #0b8adc; // *AA:Colors|Slider|color|The color of the slider range bar.
+$switchOn: #ffffff; // *AA:Colors|Switch On Foreground|color|The color of the switch foreground when the switch is "on".
+$switchOnBack: #4bd762; // *AA:Colors|Switch On Background|color|The color of the switch background when the switch is "on".
+$calendar: #ffffff; // *AA:Colors|Calendar On Foreground|color|The color of the calendar foreground for the "on" state (selected).
+$calendarBack: #ff3b30; // *AA:Colors|Calendar On Backgound|color|The color of the calendar background for the "on" state (selected).
+$iconSize: 24px; // *AA:Icons|Normal|size|The size for icons.
+$iconSmSize: 18px; // *AA:Icons|Small|size|The size for small icons.
+
+@mixin icon($char) {
+display: block;
+position: absolute;
+content: quote($char);
+}
+
+@font-face {
+font-family: 'A5_iOS7Icons';
+src: url(A5_iOS7Icons.eot);
+src: url(A5_iOS7Icons.eot) format('embedded-opentype'), url(A5_iOS7Icons.woff) format('woff'), url(A5_iOS7Icons.ttf) format('truetype'), url(A5_iOS7Icons.svg) format('svg');
+}
+
+html { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-user-select: none; }
+
+button::-moz-focus-inner {
+border-width: 0;
+padding: 0;
+}
+
+
+.iOS7Page {
+font: 16px $fontFamily;
+color: $primary;
+}
+.iOS7Heading {
+font: 16px $fontFamily;
+font-weight: bold;
+color: $primary;
+}
+.iOS7Text {
+font: 16px $fontFamily;
+color: $primary;
+}
+.iOS7TextHighlight {
+color: $accent;
+}
+.iOS7Link {
+font: 16px $fontFamily;
+color: lighten($primary,20%);
+}
+.iOS7Group {
+border: 1px solid darken($primaryBack,20%);
+border-radius: 0px;
+padding: 8px;
+margin-top: 2px;
+margin-bottom: 2px;
+}
+.iOS7GroupLabel {
+font: 12px $fontFamily;
+font-weight: bold;
+color: lighten($primary,20%);
+background: darken($primaryBack,7%);
+border: 1px solid darken($primaryBack,20%);
+width: 100%;
+padding: 8px;
+margin-left: -9px;
+margin-right: -9px;
+}
+.iOS7UILock {
+background: #000;
+opacity: .5;
+}
+
+/* Grid */
+.iOS7Grid {
+border: 1px solid darken($primaryBack,20%);
+border-radius: 3px;
+}
+.iOS7GridHeader {
+font: 12px $fontFamily;
+color: lighten($primary,20%);
+background: darken($primaryBack,7%);
+border-bottom: 1px solid darken($primaryBack,20%);
+text-align: left;
+padding: 0px 14px;
+}
+.iOS7GridHeader .iOS7Link, .iOS7GridHeader span {
+font: 12px $fontFamily;
+font-weight: bold;
+color: lighten($primary,20%);
+display: inline-block;
+padding: 14px;
+text-decoration: none;
+cursor: default;
+}
+.iOS7GridFooter {
+font: 16px $fontFamily;
+color: lighten($primary,20%);
+background: darken($primaryBack,7%);
+text-align: left;
+padding: 0px 14px;
+}
+.iOS7GridFooter .iOS7Link, .iOS7GridFooter span {
+font: 16px $fontFamily;
+}
+span.iOS7GridNav {
+padding: 0px;
+font: 16px $fontFamily;
+}
+.iOS7GridSummaryLabel, .iOS7GridSummaryData {
+font-size: 16px;
+padding: 14px;
+background: darken($primaryBack,7%);
+cursor: default;
+}
+.iOS7GridSummaryLabel {
+font: 12px $fontFamily;
+font-weight: bold;
+color: lighten($primary,20%);
+}
+.iOS7GridQBE {
+font-size: 16px;
+padding: 14px;
+border-bottom: 1px solid darken($primaryBack,20%);
+background: darken($primaryBack,3%);
+cursor: default;
+}
+.iOS7GridDataHeader {
+font: 12px $fontFamily;
+font-weight: bold;
+color: lighten($primary,20%);
+background: darken($primaryBack,7%);
+border-bottom: 1px solid darken($primaryBack,20%);
+padding: 8px 14px;
+}
+.iOS7GridData, .iOS7GridRowHeader {
+font-size: 16px;
+padding: 14px;
+border-bottom: 1px solid darken($primaryBack,20%);
+background: $primaryBack;
+cursor: default;
+}
+.iOS7GridDataAlt {
+font-size: 16px;
+padding: 14px;
+border-bottom: 1px solid darken($primaryBack,20%);
+background: darken($primaryBack,1%);
+cursor: default;
+}
+.iOS7GridRowSelected .iOS7GridData, .iOS7GridRowSelected .iOS7GridDataAlt {
+background: darken($primaryBack,10%);
+}
+.iOS7GridDataError {
+font-size: 16px;
+padding: 14px;
+color: $error;
+background: lighten($error,40%);
+border-bottom: 1px solid darken($primaryBack,20%);
+cursor: default;
+}
+
+.iOS7Grid > tbody > tr:last-child > td {
+border: none;
+}
+
+
+.iOS7GridFormLabel, .iOS7GridFormData {
+padding: 6px;
+border-top: 1px solid darken($primaryBack,20%);
+}
+.iOS7GridFormLabel {
+font-size: 14px;
+font-weight: bold;
+}
+.iOS7GridFormDataError {
+font-size: 16px;
+padding:6px;
+color: $error;
+background: lighten($error,40%);
+border-top: 1px solid darken($primaryBack,20%);
+cursor: default;
+}
+tr:nth-child(1) .iOS7GridFormLabel, tr:nth-child(1) .iOS7GridFormData, tr:nth-child(1) .iOS7GridFormDataError {
+border-top: none;
+}
+
+.iOS7GridForm .iOS7Edit, .iOS7GridForm .iOS7EditBG {
+background: transparent;
+border: none;
+margin: 0px;
+}
+
+
+/* Dialog */
+.iOS7DialogLabel {
+font: 14px $fontFamily;
+font-weight: bold;
+color: lighten($primary,20%);
+padding: 6px;
+}
+.iOS7DialogRSHeader {
+}
+.iOS7DialogRSFooter {
+}
+.iOS7DialogRSRow {
+}
+.iOS7DialogRSRowSelected {
+}
+.iOS7DialogRSRowHover {
+}
+.iOS7DialogRSRowError {
+}
+.iOS7DialogRSSeparator {
+border-top: 1px solid darken($primaryBack,30%);
+margin-top: 6px;
+line-height: 6px;
+}
+
+/* Buttons */
+.iOS7Button, .iOS7ButtonConfirm, .iOS7ButtonDeny, .iOS7ButtonDD {
+font-size: 16px;
+color: $accent;
+background: transparent;
+border: 1px solid $accent;
+border-radius: 6px;
+padding: 5px 9px;
+margin: 2px;
+outline: none;
+vertical-align: middle;
+}
+.iOS7ButtonPressed, .iOS7ButtonDDPressed {
+color: transparentize($accent,.5);
+border: 1px solid transparentize($accent,.5);
+}
+.iOS7ButtonConfirm {
+color: $confirm;
+border-color: $confirm;
+}
+.iOS7ButtonConfirmPressed {
+color: transparentize($confirm,.5);
+border: 1px solid transparentize($confirm,.5);
+}
+.iOS7ButtonDeny {
+color: $deny;
+border-color: $deny;
+}
+.iOS7ButtonDenyPressed {
+color: transparentize($deny,.5);
+border: 1px solid transparentize($deny,.5);
+}
+
+
+.iOS7ButtonDD {
+position: relative;
+padding: 0px;
+vertical-align: middle;
+}
+.iOS7ButtonDDContent, .iOS7ButtonDDSplitContent {
+padding: 5px 9px;
+}
+.iOS7ButtonDDDropdown {
+width: 32px;
+}
+.iOS7ButtonDDSplitDropdown {
+border-left: $accent 1px solid;
+width: 32px;
+}
+.iOS7ButtonDDPressed .iOS7ButtonDDSplitDropdown {
+border-left: 1px solid transparentize($primary,.75);
+}
+.iOS7ButtonDD:after {
+content: "c";
+display: block;
+position: absolute;
+right: 4px;
+top: 50%;
+margin-top: -13px;
+font: 24px A5_iOS7Icons;
+}
+
+.iOS7ButtonLeft, .iOS7ButtonRight {
+position: relative;
+font-size: 16px;
+color: $accent;
+background: transparent;
+border: none;
+padding: 6px 10px;
+margin: 2px;
+outline: none;
+vertical-align: middle;
+}
+.iOS7ButtonLeft {
+padding-left: 32px;
+}
+.iOS7ButtonRight {
+padding-right: 32px;
+}
+.iOS7ButtonLeftPressed, .iOS7ButtonRightPressed {
+color: transparentize($accent,.5);
+}
+.iOS7ButtonLeft:after {
+content: "a";
+display: block;
+position: absolute;
+left: 4px;
+top: 50%;
+margin-top: -14px;
+font: 24px A5_iOS7Icons;
+}
+.iOS7ButtonRight:after {
+content: "b";
+display: block;
+position: absolute;
+right: 4px;
+top: 50%;
+margin-top: -14px;
+font: 24px A5_iOS7Icons;
+}
+
+.iOS7ButtonDisabled, .iOS7ButtonConfirmDisabled, .iOS7ButtonDenyDisabled, .iOS7ButtonDDDisabled, .iOS7ButtonDDDisabled .iOS7ButtonDDSplitDropdown {
+color: transparentize($primary,.75);
+border-color: transparentize($primary,.75);
+}
+
+.iOS7ButtonGroupHF {
+border-radius: 6px 0px 0px 6px;
+margin-right: 0px;
+border-right: none;
+}
+.iOS7ButtonGroupHM {
+border-radius: 0px;
+margin-right: 0px;
+margin-left: 0px;
+border-right: none;
+}
+.iOS7ButtonGroupHL {
+border-radius: 0px 6px 6px 0px;
+margin-left: 0px;
+}
+.iOS7ButtonGroupVF {
+border-radius: 6px 6px 0px 0px;
+margin-bottom: 0px;
+border-bottom: none;
+width: 100%;
+display: block;
+}
+.iOS7ButtonGroupVM {
+border-radius: 0px;
+margin-bottom: 0px;
+margin-top: 0px;
+border-bottom: none;
+width: 100%;
+display: block;
+}
+.iOS7ButtonGroupVL {
+border-radius: 0px 0px 6px 6px;
+margin-top: 0px;
+width: 100%;
+display: block;
+}
+
+
+
+/* Edits */
+.iOS7Edit {
+font-family: $fontFamily;
+font-size: 16px;
+color: lighten($primary,20%);
+background: $primaryBack;
+border: 1px solid darken($primaryBack,20%);
+border-radius: 3px;
+padding: 14px;
+outline: none;
+}
+select.iOS7Edit {padding: 13px;}
+input.iOS7EditError, textarea.iOS7EditError, select.iOS7EditError {
+color: $error;
+border-color: $error;
+background: lighten($error,40%);
+}
+input.iOS7EditWatermark, textarea.iOS7EditWatermark, select.iOS7EditWatermark {
+color: lighten($primary,50%);
+}
+input.iOS7EditWatermark.iOS7EditError, textarea.iOS7EditWatermark.iOS7EditError, select.iOS7EditWatermark.iOS7EditError {
+color: lighten($error,10%);
+font-style: italic;
+}
+.iOS7EditRound {
+border-radius: 24px;
+padding: 6px 13px;
+}
+
+/* Edit Button Group */
+.iOS7EditBG {
+font-size: 16px;
+color: lighten($primary,20%);
+background: $primaryBack;
+border: 1px solid darken($primaryBack,20%);
+border-radius: 3px;
+box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.iOS7EditBGEdit {
+font-size: 16px;
+color: lighten($primary,20%);
+border: none;
+background: transparent;
+padding: 14px;
+outline: none;
+}
+.iOS7EditBGWatermark {
+color: lighten($primary,50%);
+}
+.iOS7EditBGButton {
+}
+.iOS7EditBGError {
+color: $error;
+border-color: $error;
+background: lighten($error,40%);
+}
+.iOS7EditBGError .iOS7EditBGEdit {
+color: $error;
+}
+.iOS7EditBGError .iOS7EditBGWatermark.iOS7EditBGEdit {
+color: lighten($error,10%);
+font-style: italic;
+}
+
+/* List */
+.iOS7List {
+border: 1px solid darken($primaryBack,20%);
+border-radius: 3px;
+}
+.iOS7ListItem {
+font-size: 16px;
+padding: 14px;
+border-bottom: 1px solid darken($primaryBack,20%);
+background: $primaryBack;
+cursor: default;
+outline: none;
+}
+.iOS7ListItemSelected {
+background: darken($primaryBack,10%);
+}
+.iOS7ListTitle {
+font: 12px $fontFamily;
+font-weight: bold;
+color: lighten($primary,20%);
+background: darken($primaryBack,7%);
+border-bottom: 1px solid darken($primaryBack,20%);
+padding: 8px 14px;
+}
+.iOS7ListSeparator {
+height: 8px;
+background: darken($primaryBack,7%);
+border-bottom: 1px solid darken($primaryBack,20%);
+}
+.iOS7ListHeader {
+font: 12px $fontFamily;
+font-weight: bold;
+color: lighten($primary,20%);
+background: darken($primaryBack,7%);
+border-bottom: 1px solid darken($primaryBack,20%);
+padding: 0px 14px;
+position: relative;
+}
+.iOS7ListHeader:not([style*="display: none"]) ~ div:after {
+display: block;
+position: absolute;
+content: "";
+height: 1px;
+width: 100%;
+left: 0px;
+top: 0px;
+background: rgba(0,0,0,.05);
+z-index: 4;
+}
+.iOS7ListHeader:not([style*="display: none"]) ~ div:before {
+display: block;
+position: absolute;
+content: "";
+height: 2px;
+width: 100%;
+left: 0px;
+top: 1px;
+background: rgba(0,0,0,.025);
+z-index: 4;
+}
+
+.iOS7ListHeaderItem {
+padding: 17px 0px;
+padding-top: 16px;
+padding-right: 40px;
+cursor: default;
+}
+.iOS7ListHeaderItemResizeOverlay {background: transparentize($primary,.75);}
+
+.iOS7ListGroupNav {
+color: $primary;
+background: transparentize($primary,.75);
+padding: 4px;
+border-radius: 4px;
+cursor: default;
+opacity: .5;
+}
+.iOS7ListGroupNavFocus {
+opacity: 1;
+}
+
+.iOS7ListItemLabelMain {
+font-weight: bold;
+}
+.iOS7ListItemLabelSub {
+font-size: 14px;
+}
+.iOS7ListItemLabelContext {
+font-size: 14px;
+color: $accent;
+}
+.iOS7ListItemLabelDetail {
+font-size: 14px;
+color: $primaryBack;
+background: lighten($primary,50%);
+padding: 2px 10px;
+border-radius: 4px;
+}
+.iOS7ListItemContent {
+font-size: 14px;
+color: lighten($primary,30%);
+}
+
+.iOS7ListNavPrev {
+position: absolute;
+top: 0px;
+width: 100%;
+padding: 14px;
+font-weight: bold;
+text-align: center;
+background: transparentize($primaryBack,.1);
+border-bottom: 1px solid darken($primaryBack,20%);
+cursor: default;
+box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
+z-index: 4;
+}
+.iOS7ListNavPrev:after {
+content: "";
+display: block;
+position: absolute;
+bottom: -3px;
+left: 0px;
+width: 100%;
+height: 3px;
+z-index: 4;
+background: rgba(0, 0, 0, 0.05);
+}
+.iOS7ListNavNext {
+position: absolute;
+bottom: 0px;
+width: 100%;
+padding: 14px;
+font-weight: bold;
+text-align: center;
+background: transparentize($primaryBack,.1);
+border-top: 1px solid darken($primaryBack,20%);
+cursor: default;
+box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
+z-index: 4;
+}
+.iOS7ListNavNext:after {
+content: "";
+display: block;
+position: absolute;
+top: -3px;
+left: 0px;
+width: 100%;
+height: 3px;
+z-index: 4;
+background: rgba(0, 0, 0, 0.05);
+}
+.iOS7ListNavPressed {
+color: $accent;
+}
+
+/* Scroller */
+.iOS7Scroller { 
+background: transparentize($primary,.95);
+color: $primaryBack;
+cursor: default;
+font-family: $fontFamily;
+font-size: 16px;
+}
+.iOS7ScrollerDial {
+background: transparentize($primary,.65);
+padding: 6px;
+}
+.iOS7ScrollerSlider { 
+width: 14px;
+}
+.iOS7ScrollerSliderHandle { 
+background: transparentize($primary,.65);
+width: 14px;
+height: 40px;
+}
+.iOS7ScrollerSliderShadow { 
+background: transparentize($primary,.80);
+width: 14px;
+height: 40px;
+border: transparentize($primary,.80);
+box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.iOS7ScrollerSliderMsg {
+position: absolute;
+right: 20px;
+color: $primaryBack;
+background: transparentize($primary,.65);
+border-radius: 3px;
+padding: 6px;
+white-space: nowrap;
+}
+.iOS7ScrollerSliderMsgT {top: 0px;}
+.iOS7ScrollerSliderMsgL {left: 0px;}
+.iOS7ScrollerSliderMsgR {right: 0px;}
+.iOS7ScrollerSliderMsgB {bottom: 0px;}
+.iOS7ScrollerSliderMsgT:after { 
+content: '';
+display: block;
+position: absolute;
+right: -10px;
+top: 7px;
+border: 5px solid transparent;
+border-left-color: transparentize($primary,.65);
+}
+.iOS7ScrollerSliderMsgL:after { 
+content: '';
+display: block;
+position: absolute;
+bottom: -10px;
+left: 7px;
+border: 5px solid transparent;
+border-top-color: transparentize($primary,.65);
+}
+.iOS7ScrollerSliderMsgR:after { 
+content: '';
+display: block;
+position: absolute;
+bottom: -10px;
+right: 7px;
+border: 5px solid transparent;
+border-top-color: transparentize($primary,.65);
+}
+.iOS7ScrollerSliderMsgB:after { 
+content: '';
+display: block;
+position: absolute;
+right: -10px;
+bottom: 7px;
+border: 5px solid transparent;
+border-left-color: transparentize($primary,.65);
+}
+
+/* Spin List */
+.iOS7SpinList {
+background: $primaryBack;
+color: $primary;
+border: 1px solid darken($primaryBack,20%);
+border-radius: 3px;
+padding: 12px;
+box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
+vertical-align: top;
+cursor: default;
+}
+.iOS7SpinList:before {
+content: "";
+display: block;
+position: absolute;
+top: 50%;
+left: 0px;
+width: 100%;
+height: 32px;
+margin-top: -18px;
+border-top: 1px solid darken($primaryBack,10%);
+border-bottom: 1px solid darken($primaryBack,10%);
+}
+.iOS7SpinList:after {
+content: "";
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+background: url('spinlistOver.png');
+background-size: 100% 100%;
+width: 100%;
+height: 100%;
+border-radius: 3px;
+}
+.iOS7SpinListItem {
+font-size: 16px;
+padding: 6px;
+}
+
+.iOS7SpinListGroup {
+padding: 0px;
+border: 1px solid darken($primaryBack,20%);
+border-radius: 3px;
+white-space: nowrap;
+overflow: hidden;
+}
+.iOS7SpinListGroup .iOS7SpinList {
+display: inline-block;
+border: none;
+border-right: 1px solid darken($primaryBack,20%);
+border-radius: 0px;
+}
+.iOS7SpinListGroup .iOS7SpinList:last-child {
+border: none;
+}
+.iOS7SpinListGroup .iOS7SpinList:after {
+border-radius: 0px;
+}
+
+/* Tree */
+.iOS7Tree {
+border: 1px solid darken($primaryBack,20%);
+border-radius: 3px;
+}
+.iOS7TreeNode {
+font-size: 16px;
+border-bottom: 1px solid darken($primaryBack,20%);
+cursor: default;
+overflow: hidden;
+outline: none;
+}
+.iOS7TreeNodeSelected {
+background: darken($primaryBack,10%);
+}
+.iOS7TreeNodeLabel {
+display: inline-block;
+color: inherit;
+text-decoration: none;
+padding: 14px;
+padding-bottom: 15px;
+cursor: default;
+width: 100%;
+outline: none;
+}
+.iOS7TreeNode .iOS7IconBtn {
+margin-top: -4px;
+}
+
+/* Slider */
+.iOS7Slider {
+padding: 18px 20px;
+padding-right: 22px;
+margin: 8px 2px;
+}
+.iOS7SliderInner {
+height: 3px;
+background: darken($primaryBack,30%);
+border-radius: 3px;
+}
+.iOS7SliderHandle {
+height: 34px;
+width: 35px;
+background: $primaryBack;
+border: 1px solid darken($primaryBack,10%);
+border-radius: 17px;
+margin-left: -17px;
+margin-top: -17px;
+box-shadow: 0px 3px 3px darken($primaryBack,30%);
+-moz-box-shadow: 0px 3px 3px darken($primaryBack,30%);
+-webkit-box-shadow: 0px 3px 3px darken($primaryBack,30%);
+}
+.iOS7SliderRange {
+height: 3px;
+margin: -1px;
+background: $sliderBack;
+border-radius: 3px;
+}
+
+/* Switch */
+.iOS7Switch {
+border: 1px solid darken($primaryBack,30%);
+border-radius: 19px;
+height: 36px;
+padding: 0px;
+margin: 8px 2px;
+cursor: default;
+}
+.iOS7SwitchOn {
+color: $switchOn;
+background: $switchOnBack;
+border-color: $switchOnBack;
+}
+.iOS7SwitchLeft {
+padding: 8px;
+padding-right: 29px;
+text-align: center;
+box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.iOS7SwitchRight {
+padding: 8px;
+padding-left: 29px;
+text-align: center;
+box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.iOS7SwitchInner {
+margin: 0px 18px;
+margin-right: 20px;
+}
+.iOS7SwitchButton {
+height: 34px;
+width: 35px;
+background: $primaryBack;
+border: 1px solid darken($primaryBack,15%);
+border-radius: 17px;
+margin-left: -17px;
+box-shadow: 0px 3px 3px darken($primaryBack,30%);
+-moz-box-shadow: 0px 3px 3px darken($primaryBack,30%);
+-webkit-box-shadow: 0px 3px 3px darken($primaryBack,30%);
+}
+.iOS7SwitchOn .iOS7SwitchButton {
+box-shadow: 0px 3px 3px darken($switchOnBack,30%);
+-moz-box-shadow: 0px 3px 3px darken($switchOnBack,30%);
+-webkit-box-shadow: 0px 3px 3px darken($switchOnBack,30%);
+}
+
+/* Date Picker */
+
+.iOS7DP {
+background: $primaryBack;
+}
+
+.iOS7DPHeaderButton {
+display: inline-block;
+font-size: 16px;
+font-weight: bold;
+padding: 14px;
+color: $calendarBack;
+text-decoration: none;
+cursor: default;
+outline: none;
+}
+
+.iOS7DPDaysOfWeek {
+font-size: 14px;
+font-weight: normal;
+padding: 6px;
+}
+.iOS7DPWeeksOfYear {
+font-size: 14px;
+font-weight: normal;
+padding: 6px;
+color: transparentize($primary,.75);
+}
+.iOS7DPDate {
+padding: 0px;
+}
+.iOS7DPItem {
+display: block;
+font-size: 16px;
+padding: 14px;
+color: $primary;
+border-top: 1px solid darken($primaryBack,20%);
+background: $primaryBack;
+text-decoration: none;
+text-align: center;
+cursor: default;
+outline: none;
+}
+.iOS7DPDateToday .iOS7DPItem  {
+color: $calendarBack;
+}
+.iOS7DPItemSelected {
+color: $calendar;
+background: $calendarBack;
+}
+.iOS7DPDateToday .iOS7DPItemSelected  {
+color: $calendar;
+}
+.iOS7DPItemDisabled {
+color: transparentize($primary,.75);
+}
+.iOS7DPItemOutOfRange {
+color: transparentize($primary,.5);
+border-top: none;
+}
+
+.iOS7DPPanelItem {
+display: block;
+font-size: 16px;
+padding: 14px;
+color: $primary;
+background: $primaryBack;
+text-decoration: none;
+text-align: center;
+cursor: default;
+outline: none;
+}
+.iOS7DPPanelItemSelected {
+color: $calendar;
+background: $calendarBack;
+}
+.iOS7DPPanelItemDisabled {
+color: transparentize($primary,.75);
+}
+
+/* TimePicker */
+.iOS7TP .iOS7Edit {
+text-align: center;
+}
+.iOS7TPEditButton {
+text-align: center;
+cursor: default;
+}
+.iOS7TPMeridianButton {
+color: $calendarBack;
+font-size: 16px;
+padding: 14px;
+cursor: default;
+}
+
+/* ControlGroups */
+.iOS7ControlGroup {
+}
+.iOS7ControlGroupRow {
+padding: 6px;
+border-top: 1px solid darken($primaryBack,20%);
+}
+.iOS7ControlGroupRowFirst {
+border-top: none;
+}
+
+.iOS7ControlGroup .iOS7DialogLabel {
+padding: 16px;
+}
+.iOS7ControlGroup .iOS7Edit, .iOS7ControlGroup .iOS7EditBG {
+background: transparent;
+border: none;
+margin: 0px;
+}
+
+/* Windows */
+.iOS7Win {
+font: 16px $fontFamily;
+background: transparentize($primaryBack,.15);
+border: 1px solid darken($primaryBack,25%);
+border-radius: 6px;
+}
+.iOS7WinInner {
+border-radius: 6px;
+overflow: hidden;
+}
+.iOS7WinTitle, .iOS7WinHeader, .iOS7WinTBar, .iOS7WinBody, .iOS7WinBBar, .iOS7WinFooter {
+padding: 6px;
+}
+.iOS7WinButtons {
+border-top: 1px solid darken($primaryBack,25%);
+text-align: center;
+font-size: 0px;
+}
+.iOS7WinResizer {
+color: darken($primaryBack,35%);
+}
+.iOS7WinButtons .iOS7Button {
+border: none;
+border-right: 1px solid darken($primaryBack,25%);
+border-radius: 0px;
+margin: 0px;
+padding: 10px;
+}
+.iOS7WinButtons .iOS7Button:first-child {
+border-left: 1px solid darken($primaryBack,25%);
+}
+.iOS7WinButtons .iOS7ButtonPressed {
+color: $accent;
+background: $primaryBack;
+}
+.iOS7DDWinPointerDown {
+border-top: 10px solid transparentize($primaryBack,.15);
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+margin-left: -10px;
+left: 50%;
+width: 0;
+height: 0;
+bottom: -10px;
+}
+.iOS7WinPointerUp {
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 10px solid transparentize($primaryBack,.15);
+margin-left: -10px;
+top: -10px;
+left: 50%;
+width: 0;
+height: 0;
+}
+.iOS7DDWinPointerLeft {
+border-top: 10px solid transparent;
+border-right: 10px solid transparentize($primaryBack,.15);
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+left: -10px;
+width: 0;
+height: 0;
+}
+.iOS7DDWinPointerRight {
+border-top: 10px solid transparent;
+border-left: 10px solid transparentize($primaryBack,.15);
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+right: -10px;
+width: 0;
+height: 0;
+}
+
+
+.iOS7DDWin {
+font: 16px $fontFamily;
+background: $primaryBack;
+border: 1px solid darken($primaryBack,15%);
+border-radius: 6px;
+}
+.iOS7DDWinInner {
+border-radius: 6px;
+overflow: hidden;
+}
+.iOS7DDWinTitle, .iOS7DDWinHeader, .iOS7DDWinTBar, .iOS7DDWinBody, .iOS7DDWinBBar, .iOS7DDWinFooter {
+padding: 6px;
+}
+.iOS7DDWinButtons {
+border-top: 1px solid darken($primaryBack,15%);
+text-align: center;
+}
+.iOS7DDWinResizer {
+color: darken($primaryBack,25%);
+}
+.iOS7DDWinButtons .iOS7Button {
+border: none;
+border-right: 1px solid darken($primaryBack,15%);
+border-radius: 0px;
+margin: 0px;
+padding: 10px;
+}
+.iOS7DDWinButtons .iOS7Button:first-child {
+border-left: 1px solid darken($primaryBack,15%);
+}
+.iOS7DDWinButtons .iOS7ButtonPressed {
+color: transparentize($accent,.5);
+}
+.iOS7DDWinPointerDown {
+border-top: 10px solid darken($primaryBack,15%);
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+margin-left: -10px;
+left: 50%;
+width: 0;
+height: 0;
+bottom: -10px;
+}
+.iOS7DDWinPointerDown:after {
+position: absolute;
+display: block;
+content: "";
+border-top: 10px solid $primaryBack;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+margin-left: -10px;
+left: 50%;
+width: 0;
+height: 0;
+bottom: 1px;
+}
+.iOS7DDWinPointerUp {
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 10px solid darken($primaryBack,15%);
+margin-left: -10px;
+top: -10px;
+left: 50%;
+width: 0;
+height: 0;
+}
+.iOS7DDWinPointerUp:after {
+position: absolute;
+display: block;
+content: "";
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 10px solid $primaryBack;
+margin-left: -10px;
+top: 1px;
+left: 50%;
+width: 0;
+height: 0;
+}
+.iOS7DDWinPointerLeft {
+border-top: 10px solid transparent;
+border-right: 10px solid darken($primaryBack,15%);
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+left: -10px;
+width: 0;
+height: 0;
+}
+.iOS7DDWinPointerLeft:after {
+position: absolute;
+display: block;
+content: "";
+border-top: 10px solid transparent;
+border-right: 10px solid $primaryBack;
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+left: 1px;
+width: 0;
+height: 0;
+}
+.iOS7DDWinPointerRight {
+border-top: 10px solid transparent;
+border-left: 10px solid darken($primaryBack,15%);
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+right: -10px;
+width: 0;
+height: 0;
+}
+.iOS7DDWinPointerRight:after {
+position: absolute;
+display: block;
+content: "";
+border-top: 10px solid transparent;
+border-left: 10px solid $primaryBack;
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+right: 1px;
+width: 0;
+height: 0;
+}
+
+/* Menu */
+.iOS7Menu {
+font: 16px $fontFamily;
+background: $primaryBack;
+border: 1px solid darken($primaryBack,15%);
+border-radius: 6px;
+}
+.iOS7MenuInner {
+border-radius: 6px;
+overflow: hidden;
+}
+.iOS7MenuItem {
+font-size: 16px;
+color: $accent;
+border-bottom: 1px solid darken($primaryBack,15%);
+padding: 0px;
+cursor: default;
+white-space: nowrap;
+}
+.iOS7MenuItem > span {
+padding: 14px;
+}
+.iOS7MenuItemSelected {
+color: transparentize($accent,.5);
+color: $primaryBack;
+background: $accent;
+}
+.iOS7MenuItemDisabled {
+color: transparentize($primary,.75);
+}
+.iOS7MenuItemCascade {
+position: relative;
+padding-right: 30px;
+}
+.iOS7MenuItemCascade:after {
+content: "b";
+display: block;
+position: absolute;
+right: 0px;
+top: 50%;
+margin-top: -14px;
+font: 24px A5_iOS7Icons;
+}
+.iOS7MenuTitle {
+font: 12px $fontFamily;
+font-weight: bold;
+color: lighten($primary,40%);
+border-bottom: 1px solid darken($primaryBack,20%);
+padding: 8px 14px;
+}
+.iOS7MenuSeparator {
+height: 2px;
+}
+.iOS7MenuPointerDown {
+border-top: 10px solid darken($primaryBack,15%);
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+margin-left: -10px;
+left: 50%;
+width: 0;
+height: 0;
+bottom: -10px;
+}
+.iOS7MenuPointerDown:after {
+position: absolute;
+display: block;
+content: "";
+border-top: 10px solid $primaryBack;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+margin-left: -10px;
+left: 50%;
+width: 0;
+height: 0;
+bottom: 1px;
+}
+.iOS7MenuPointerUp {
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 10px solid darken($primaryBack,15%);
+margin-left: -10px;
+top: -10px;
+left: 50%;
+width: 0;
+height: 0;
+}
+.iOS7MenuPointerUp:after {
+position: absolute;
+display: block;
+content: "";
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 10px solid $primaryBack;
+margin-left: -10px;
+top: 1px;
+left: 50%;
+width: 0;
+height: 0;
+}
+.iOS7MenuPointerLeft {
+border-top: 10px solid transparent;
+border-right: 10px solid darken($primaryBack,15%);
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+left: -10px;
+width: 0;
+height: 0;
+}
+.iOS7MenuPointerLeft:after {
+position: absolute;
+display: block;
+content: "";
+border-top: 10px solid transparent;
+border-right: 10px solid $primaryBack;
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+left: 1px;
+width: 0;
+height: 0;
+}
+.iOS7MenuPointerRight {
+border-top: 10px solid transparent;
+border-left: 10px solid darken($primaryBack,15%);
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+right: -10px;
+width: 0;
+height: 0;
+}
+.iOS7MenuPointerRight:after {
+position: absolute;
+display: block;
+content: "";
+border-top: 10px solid transparent;
+border-left: 10px solid $primaryBack;
+border-bottom: 10px solid transparent;
+margin-top: -10px;
+top: 50%;
+right: 1px;
+width: 0;
+height: 0;
+}
+
+
+
+/* Panels */
+.iOS7PanelCard {
+font: 16px $fontFamily;
+color: $primary;
+background: $primaryBack;
+border-right: 1px solid darken($primaryBack,40%);
+}
+.iOS7PanelHeader {
+font: 24px $fontFamily;
+font-weight: bold;
+background: darken($primaryBack,4%);
+border-bottom: 1px solid darken($primaryBack,40%);
+padding: 8px;
+}
+.iOS7PanelFooter {
+font: 24px $fontFamily;
+font-weight: bold;
+background: darken($primaryBack,4%);
+border-top: 1px solid darken($primaryBack,40%);
+padding: 8px;
+}
+.iOS7PanelHeader .iOS7Heading, .iOS7PanelFooter .iOS7Heading {
+font: 24px $fontFamily;
+font-weight: bold;
+padding: 2px;
+}
+.iOS7PanelHeader .iOS7Text, .iOS7PanelFooter .iOS7Text {
+font: 16px $fontFamily;
+padding: 6px;
+}
+
+.iOS7PanelNavInd {
+font-size: 0px;
+padding: 2px;
+}
+.iOS7PanelNavIndButton {
+background: darken($primaryBack,40%);
+width: 10px;
+height: 10px;
+border-radius: 5px;
+display: inline-block;
+margin: 2px;
+}
+.iOS7PanelNavIndButtonSelected {
+background: $accent;
+}
+
+.iOS7PanelHeader, .iOS7PanelFooter{
+	.iOS7Button,.iOS7ButtonConfirm, .iOS7ButtonDeny, .iOS7ButtonLeft, .iOS7ButtonRight {
+	font-size: 18px;
+	background: transparent;
+	border: none;
+	margin: 0px;
+	}
+}
+
+.iOS7PanelHeader .iOS7ButtonGroupHF, .iOS7PanelFooter .iOS7ButtonGroupHF {
+border: 1px solid $accent;
+border-radius: 6px 0px 0px 6px;
+margin: 0px;
+padding: 4px 8px;
+}
+.iOS7PanelHeader .iOS7ButtonGroupHM, .iOS7PanelFooter .iOS7ButtonGroupHM {
+border: 1px solid $accent;
+border-left: none;
+border-radius: 0px;
+margin: 0px;
+padding: 4px 8px;
+}
+.iOS7PanelHeader .iOS7ButtonGroupHL, .iOS7PanelFooter .iOS7ButtonGroupHL {
+border: 1px solid $accent;
+border-left: none;
+border-radius: 0px 6px 6px 0px;
+margin: 0px;
+padding: 4px 8px;
+}
+
+.iOS7PanelHeader .iOS7ButtonPressed.iOS7ButtonGroupHF, .iOS7PanelFooter .iOS7ButtonPressed.iOS7ButtonGroupHF,
+.iOS7PanelHeader .iOS7ButtonPressed.iOS7ButtonGroupHM, .iOS7PanelFooter .iOS7ButtonPressed.iOS7ButtonGroupHM,
+.iOS7PanelHeader .iOS7ButtonPressed.iOS7ButtonGroupHL, .iOS7PanelFooter .iOS7ButtonPressed.iOS7ButtonGroupHL {
+color: $primaryBack;
+background: $accent;
+}
+
+.iOS7PanelHeader .iOS7ButtonDisabled.iOS7ButtonGroupHF, .iOS7PanelFooter .iOS7ButtonDisabled.iOS7ButtonGroupHF,
+.iOS7PanelHeader .iOS7ButtonDisabled.iOS7ButtonGroupHM, .iOS7PanelFooter .iOS7ButtonDisabled.iOS7ButtonGroupHM,
+.iOS7PanelHeader .iOS7ButtonDisabled.iOS7ButtonGroupHL, .iOS7PanelFooter .iOS7ButtonDisabled.iOS7ButtonGroupHL {
+border-color: transparentize($primary,.75);
+}
+
+
+.iOS7PanelCard > .iOS7PanelBody {
+position: relative;
+}
+.iOS7PanelCard > .iOS7PanelBody:after {
+display: block;
+position: absolute;
+content: "";
+height: 1px;
+width: 100%;
+left: 0px;
+top: 0px;
+background: rgba(0,0,0,.05);
+z-index: 4;
+}
+.iOS7PanelCard > .iOS7PanelBody:before {
+display: block;
+position: absolute;
+content: "";
+height: 2px;
+width: 100%;
+left: 0px;
+top: 1px;
+background: rgba(0,0,0,.025);
+z-index: 4;
+}
+
+.iOS7AppBar {
+padding: 0px;
+text-align: center;
+
+	.iOS7Button {
+		color: transparentize($primary,.5);
+		padding: 14px;
+		border: none;
+		border-radius: 0px;
+	}
+	.iOS7ButtonPressed {
+		color: $accent;
+	}
+}
+
+/* Tabs */
+
+	/* top and bottom */
+
+.iOS7TabTBand,
+.iOS7TabBBand {
+text-align: center;
+font-size: 0px;
+}
+.iOS7TabTButton, .iOS7TabTButtonSelected, .iOS7TabTButtonDisabled,
+.iOS7TabBButton, .iOS7TabBButtonSelected, .iOS7TabBButtonDisabled {
+font-size: 16px;
+color: $accent;
+background: transparent;
+border: 1px solid $accent;
+border-left: none;
+border-radius: 0px;
+padding: 5px 9px;
+outline: none;
+text-decoration: none;
+display: inline-block;
+}
+.iOS7TabTButton:first-child, .iOS7TabTButtonSelected:first-child, .iOS7TabTButtonDisabled:first-child,
+.iOS7TabBButton:first-child, .iOS7TabBButtonSelected:first-child, .iOS7TabBButtonDisabled:first-child {
+border-radius: 6px 0px 0px 6px;
+border: 1px solid $accent;
+}
+.iOS7TabTButton:last-of-type, .iOS7TabTButtonSelected:last-of-type, .iOS7TabTButtonDisabled:last-of-type,
+.iOS7TabBButton:last-of-type, .iOS7TabBButtonSelected:last-of-type, .iOS7TabBButtonDisabled:last-of-type {
+border-radius: 0px 6px 6px 0px;
+}
+.iOS7TabTButtonSelected,
+.iOS7TabBButtonSelected {
+color: $primaryBack;
+background: $accent;
+}
+.iOS7TabTButtonDisabled,
+.iOS7TabBButtonDisabled {
+color: transparentize($primary,.75);
+}
+.iOS7TabTPane {
+margin-top: 6px;
+}
+.iOS7TabBPane {
+margin-bottom: 6px;
+}
+
+	/* left and right */
+.iOS7TabLBand,
+.iOS7TabRBand {
+font-size: 0px;
+}
+.iOS7TabLButton, .iOS7TabLButtonSelected, .iOS7TabLButtonDisabled,
+.iOS7TabRButton, .iOS7TabRButtonSelected, .iOS7TabRButtonDisabled {
+font-size: 16px;
+color: $accent;
+background: transparent;
+border: 1px solid $accent;
+border-top: none;
+border-radius: 0px;
+padding: 5px 9px;
+outline: none;
+text-decoration: none;
+display: block;
+}
+.iOS7TabLButton:first-child, .iOS7TabLButtonSelected:first-child, .iOS7TabLButtonDisabled:first-child,
+.iOS7TabRButton:first-child, .iOS7TabRButtonSelected:first-child, .iOS7TabRButtonDisabled:first-child {
+border-radius: 6px 6px 0px 0px;
+border: 1px solid $accent;
+}
+.iOS7TabLButton:last-of-type, .iOS7TabLButtonSelected:last-of-type, .iOS7TabLButtonDisabled:last-of-type,
+.iOS7TabRButton:last-of-type, .iOS7TabRButtonSelected:last-of-type, .iOS7TabRButtonDisabled:last-of-type {
+border-radius: 0px 0px 6px 6px;
+}
+.iOS7TabLButtonSelected,
+.iOS7TabRButtonSelected {
+color: $primaryBack;
+background: $accent;
+}
+.iOS7TabLButtonDisabled,
+.iOS7TabRButtonDisabled {
+color: transparentize($primary,.75);
+}
+.iOS7TabLPane {
+margin-left: 6px;
+}
+.iOS7TabRPane {
+margin-right: 6px;
+}
+
+/* Accordion */
+.iOS7Accordion {
+border: 1px solid darken($primaryBack,20%);
+border-bottom: none;
+}
+.iOS7AccordionButton, .iOS7AccordionButtonSelected, .iOS7AccordionButtonDisabled {
+font: 12px $fontFamily;
+font-weight: bold;
+color: lighten($primary,20%);
+background: darken($primaryBack,7%);
+border-bottom: 1px solid darken($primaryBack,20%);
+padding: 14px;
+outline: none;
+text-decoration: none;
+display: block;
+}
+.iOS7AccordionButton:after {
+content: 'b';
+display: block;
+float: left;
+font: 16px A5_iOS7Icons;
+margin-top: -2px;
+margin-right: 6px;
+}
+.iOS7AccordionButtonSelected:after {
+content: 'c';
+display: block;
+float: left;
+font: 16px A5_iOS7Icons;
+margin-top: -2px;
+margin-right: 6px;
+}
+.iOS7AccordionButtonDisabled {
+color: transparentize($primary,.75);
+}
+.iOS7AccordionPane {
+padding: 6px;
+border-bottom: 1px solid darken($primaryBack,20%);
+}
+
+/* Tabband */
+.iOS7Tabband {
+font-size: 16px;
+}
+.iOS7TabbandButton, .iOS7TabbandButtonSelected, .iOS7TabbandButtonDisabled {
+color: lighten($primary,50%);
+background: transparent;
+padding: 14px;
+outline: none;
+text-decoration: none;
+white-space: nowrap;
+display: block;
+position: relative;
+}
+.iOS7TabbandButtonSelected {
+color: $accent;
+}
+.iOS7TabbandButtonDisabled {
+color: transparentize($primary,.75);
+}
+.iOS7TabbandClose {
+color: $deny;
+}
+
+.iOS7TabbandIcon {
+	.iOS7TabbandButton, .iOS7TabbandButtonSelected, .iOS7TabbandButtonDisabled {
+	font-size: 10px;
+	padding: 6px;
+	}
+}
+
+/* Ink */
+.iOS7Ink {
+border: 1px solid darken($primaryBack,20%);
+border-radius: 3px;
+}
+.iOS7InkArea {
+background: darken($primaryBack,5%);
+}
+.iOS7InkPage {
+background: #fff;
+border: 1px solid darken($primaryBack,20%);
+box-shadow: 0px 3px 3px darken($primaryBack,10%);
+-moz-box-shadow: 0px 3px 3px darken($primaryBack,10%);
+-webkit-box-shadow: 0px 3px 3px darken($primaryBack,10%);
+}
+.iOS7InkZoomBox {
+border: 1px dotted $accent;
+}
+.iOS7InkZoomBoxScale:after {
+content: "";
+position: absolute;
+bottom: 2px;
+right: 2px;
+display: block;
+border: 5px solid transparent;
+border-bottom-color:  transparentize($accent,.5);
+border-right-color:  transparentize($accent,.5);
+}
+.iOS7InkSplitBar {
+background: darken($primaryBack,10%);
+}
+.iOS7InkEraser {
+border: 1px solid rgba(255,100,150,0.5);
+border-radius: 3px;
+background: rgba(255,100,150,0.1);
+}
+.iOS7InkButton {
+display: inline-block;
+width: 40px;
+height: 40px;
+padding: 2px;
+border: 1px solid darken($primaryBack,20%);
+border-radius: 22px;
+background: transparentize($primaryBack,.1);
+vertical-align: top;
+line-height: 31px;
+text-align: center;
+color: lighten($primary,40%);
+stroke: lighten($primary,40%);
+fill: lighten($primary,40%);
+}
+.iOS7InkButton .iOS7Icon {
+vertical-align: bottom;
+}
+.iOS7InkButtonSelected {
+border-color: darken($primaryBack,50%);
+color: lighten($primary,10%);
+stroke: lighten($primary,10%);
+fill: lighten($primary,10%);
+}
+
+.iOS7InkBarTop {
+background: transparentize($primaryBack,.1);
+border-bottom: 1px solid darken($primaryBack,20%);
+}
+.iOS7InkBarLeft {
+background: transparentize($primaryBack,.1);
+border-right: 1px solid darken($primaryBack,20%);
+}
+.iOS7InkBarRight {
+background: transparentize($primaryBack,.1);
+border-left: 1px solid darken($primaryBack,20%);
+}
+.iOS7InkBarBottom {
+background: transparentize($primaryBack,.1);
+border-top: 1px solid darken($primaryBack,20%);
+}
+.iOS7InkGroupTop, .iOS7InkGroupBottom, .iOS7InkGroupLeft, .iOS7InkGroupRight {
+background: transparentize($primaryBack,.1);
+border: 1px solid darken($primaryBack,20%);
+}
+.iOS7InkGroupTop {
+border-top: none;
+border-radius: 0px 0px 4px 4px;
+}
+.iOS7InkGroupBottom {
+border-bottom: none;
+border-radius: 4px 4px 0px 0px;
+}
+.iOS7InkGroupLeft {
+border-left: none;
+border-radius: 0px 4px 4px 0px;
+}
+.iOS7InkGroupRight {
+border-right: none;
+border-radius: 4px 0px 0px 4px;
+}
+.iOS7InkBarTop, .iOS7InkBarBottom, .iOS7InkBarLeft, .iOS7InkBarRight, .iOS7InkGroupTop, .iOS7InkGroupBottom, .iOS7InkGroupLeft, .iOS7InkGroupRight {
+	.iOS7InkButton {
+	background: transparent;
+	border: 1px solid transparent;
+	border-radius: 0px;
+	}
+}
+.iOS7InkBarTop, .iOS7InkBarBottom, .iOS7InkBarLeft, .iOS7InkBarRight, .iOS7InkGroupTop, .iOS7InkGroupBottom, .iOS7InkGroupLeft, .iOS7InkGroupRight {
+	.iOS7InkButtonSelected {
+		background: darken($primaryBack,10%);
+	}
+}
+.iOS7InkStatus {
+color: $primaryBack;
+background: transparentize($primary,.75);
+padding: 4px;
+border-radius: 4px;
+}
+
+.iOS7InkPopup {
+font: 16px $fontFamily;
+background: $primaryBack;
+border: 1px solid darken($primaryBack,15%);
+border-radius: 6px;
+}
+.iOS7InkPopupLock {
+background: rgba(0,0,0,.1);
+}
+.iOS7InkPopupGroup {
+padding: 4px;
+padding-bottom: 0px;
+border-bottom: 1px solid darken($primaryBack,10%);
+}
+.iOS7InkPopupSwatch {
+position: relative;
+display: inline-block;
+width: 40px;
+height: 40px;
+padding: 2px;
+border: 1px solid darken($primaryBack,20%);
+border-radius: 22px;
+vertical-align: top;
+text-align: center;
+margin-bottom: 4px;
+}
+.iOS7InkPopupSwatchSelected {
+border: 2px solid $accent;
+border-radius: 23px;
+margin: -1px;
+margin-bottom: 3px;
+}
+.iOS7InkPopupSwatchSelected:before {
+content: "";
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+border: 2px solid #fff;
+border-radius: 20px;
+}
+.iOS7InkPopupButton {
+font-size: 16px;
+color: $accent;
+padding: 14px;
+text-align: center;
+}
+
+/* Scroll Indicator */
+.iOS7ScrollIndH, .iOS7ScrollIndV {
+height: 5px;
+width: 5px;
+padding: 0px;
+}
+.iOS7ScrollIndHBar, .iOS7ScrollIndVBar {
+background: #000;
+opacity: .5;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+}
+
+/* Icons */
+.iOS7Icon, .iOS7IconSm, .iOS7IconBtn {
+font-style: normal;
+cursor: default;
+display: inline-block;
+position: relative;
+font: $iconSize - 2px A5_iOS7Icons;
+width: $iconSize;
+height: $iconSize;
+}
+.iOS7IconSm {
+font: $iconSmSize - 2px A5_iOS7Icons;
+width: $iconSmSize;
+height: $iconSmSize;
+}
+.iOS7IconBtn{
+padding: 10px;
+}
+.iOS7IconDisabled { opacity: .5}
+
+.iOS7IconLeft:after {
+@include icon(a);
+}
+.iOS7IconRight:after {
+@include icon(b);
+}
+.iOS7IconUp:after {
+@include icon(d);
+}
+.iOS7IconDown:after {
+@include icon(c);
+}
+.iOS7IconClose:after {
+@include icon(e);
+}
+.iOS7IconResizeThumb:after {
+@include icon(f);
+}
+.iOS7IconRadio:after {
+@include icon(g);
+}
+.iOS7IconCheck:after {
+@include icon(h);
+}
+.iOS7IconAdd:after {
+@include icon(i);
+}
+.iOS7IconRemove:after {
+@include icon(j);
+}
+.iOS7IconUndo:after {
+@include icon(k);
+}
+.iOS7IconRedo:after {
+@include icon(l);
+}
+.iOS7IconEdit:after {
+@include icon(m);
+}
+.iOS7IconCancel:after {
+@include icon(n);
+}
+.iOS7IconDelete:after {
+@include icon(o);
+}
+.iOS7IconCancelEdit:after {
+@include icon(p);
+}
+.iOS7IconNew:after {
+@include icon(q);
+}
+.iOS7IconCancelNew:after {
+@include icon(r);
+}
+.iOS7IconSave:after {
+@include icon(s);
+}
+.iOS7IconLoad:after {
+@include icon(t);
+}
+.iOS7IconSaveAndEnter:after {
+@include icon(u);
+}
+.iOS7IconRefresh:after {
+@include icon(v);
+}
+.iOS7IconSearch:after {
+@include icon(w);
+}
+.iOS7IconFilter:after {
+@include icon(x);
+}
+.iOS7IconFirst:after {
+@include icon(y);
+}
+.iOS7IconLast:after {
+@include icon(z);
+}
+.iOS7IconInfo:after {
+@include icon(A);
+}
+.iOS7IconHelp:after {
+@include icon(B);
+}
+.iOS7IconError:after {
+@include icon(C);
+}
+.iOS7IconWarning:after {
+@include icon(D);
+}
+.iOS7IconMenu:after {
+@include icon(E);
+}
+
+/* container padding */
+.iOS7PanelHeader .A5Container, .iOS7PanelFooter .A5Container, .iOS7PanelTopHeader .A5Container, .iOS7PanelTopFooter .A5Container, .iOS7PanelHeader .A5CWLayout, .iOS7PanelFooter .A5CWLayout, .iOS7PanelTopHeader .A5CWLayout, .iOS7PanelTopFooter .A5CWLayout {
+padding: 0px;
+}

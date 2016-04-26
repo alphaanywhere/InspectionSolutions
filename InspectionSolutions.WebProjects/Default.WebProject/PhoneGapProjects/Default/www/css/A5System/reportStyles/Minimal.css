@@ -1,0 +1,41 @@
+.reportColumnDividerBelowHeading {
+border-style: solid;
+border-width: 1pt;
+border-color: Black;
+}
+.reportColumnDividerAboveTotal {
+border-style: solid;
+border-width: 1pt;
+border-color: Black;
+}
+.reportColumnDividerRowInsideTotal {
+font-family: arial;
+}
+.reportColumnDividerRowInsideTotal {
+font-family: arial;
+}
+.reportColumnHeadingCell {
+font-family: arial;
+}
+.reportColumnFooterTotal {
+font-family: arial;
+}
+.reportColumnCell {
+font-family: arial;
+}
+.reportColumnDetail {
+font-family: arial;
+}
+.reportColumnDetailAlt, .ReportRowAlt td {
+font-family: arial;
+}
+.reportColumnDividerBelowHeadingB {
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: Black;
+}
+.reportColumnDividerAboveTotalT {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: Black;
+}

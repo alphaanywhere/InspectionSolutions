@@ -1,0 +1,482 @@
+
+/*
+These styles are used by the Auto Suggest controls
+*/
+.A5SuggestionList {
+font: 9pt arial;
+color: #000;
+border: 1px solid #9d9da1;
+padding: 0px;
+background: #fff;
+cursor: default;
+}
+.A5SuggestionListKey {
+color: blue;
+text-decoration: underline;
+background: #fafaff;
+}
+.A5SuggestionListEntrySelected, .A5SuggestionListEntrySelected .A5SuggestionListKey{
+color: #000;
+background: #b2b4bf url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAASCAIAAAAVNSPrAAAAKElEQVR42mM4e/46079//5j+///P9O/ff6b///9B6f9QMWQ5BB9NPQBtNjVOHWsgDwAAAABJRU5ErkJggg==') repeat-x top;
+cursor: default;
+}
+.A5SuggestionListColumnTitle{
+text-align: center;
+background: #e0dfe3 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAASCAIAAAAVNSPrAAAAKUlEQVR42k3KsQkAMAzEwPD7L2wMUooE7O4EOlUdIGrE4LZRxrwe/x8vjvY1y0qcpVkAAAAASUVORK5CYII=') repeat-x top;
+}
+.A5SuggestionListColumnTitle td{
+border: none;
+border-bottom: 1px solid #9d9da1;
+}
+.A5SuggestionList td{
+padding: 2px;
+}
+
+
+/*
+These styles are used by the Edit Combo controls
+*/
+.A5EditCombo {
+font: 9pt arial;
+color: #000;
+border: 1px solid #9d9da1;
+padding: 0px;
+background: #fff;
+cursor: default;
+}
+.A5EditComboKey {
+color: blue;
+text-decoration: underline;
+background: #fafaff;
+}
+.A5EditComboEntrySelected, .A5EditComboEntrySelected .A5EditComboKey{
+color: #000;
+background: #b2b4bf url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAASCAIAAAAVNSPrAAAAKElEQVR42mM4e/46079//5j+///P9O/ff6b///9B6f9QMWQ5BB9NPQBtNjVOHWsgDwAAAABJRU5ErkJggg==') repeat-x top;
+cursor: default;
+}
+.A5EditComboColumnTitle{
+text-align: center;
+background: #e0dfe3 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAASCAIAAAAVNSPrAAAAKUlEQVR42k3KsQkAMAzEwPD7L2wMUooE7O4EOlUdIGrE4LZRxrwe/x8vjvY1y0qcpVkAAAAASUVORK5CYII=') repeat-x top;
+}
+.A5EditComboColumnTitle td{
+border: none;
+border-bottom: 1px solid #9d9da1;
+}
+.A5EditCombo td{
+padding: 2px;
+}
+.A5EditComboButton{
+
+}
+
+
+/*
+These styles are used by the Tree controls
+*/
+.A5Tree {
+font: 9pt arial;
+color: #000;
+border: 1px solid #9d9da1;
+padding: 0px;
+background: #fff;
+cursor: default;
+overflow: auto;
+}
+.A5TreeFocused {
+border-color: #716f64;
+}
+.A5Tree li {
+cursor: default;
+}
+.A5TreeLabel {
+color: #000;
+padding: 2px;
+margin-left: 2px;
+text-decoration: none;
+}
+.A5TreeLabel:hover {
+padding: 2px;
+margin-left: 2px;
+text-decoration: underline;
+}
+.A5TreeSelected {
+color: #000;
+background: #b2b4bf url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAASCAIAAAAVNSPrAAAAKElEQVR42mM4e/46079//5j+///P9O/ff6b///9B6f9QMWQ5BB9NPQBtNjVOHWsgDwAAAABJRU5ErkJggg==') repeat-x top;
+cursor: default;
+}
+.A5TreeSelected .A5TreeLabel {
+color: #000;
+}
+
+
+/*
+These styles are used by the Window
+*/
+.A5Window{
+font: 9pt tahoma, arial, sans-serif;
+color: #0e1010;
+border: 1px solid #9d9da1;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+background: #c0c0c0 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAcCAIAAAAvP0KbAAAAKUlEQVR42o2JsQ0AMAyDKvz/T36MqHMzdQLEaQtAEpI8vns/FZWZ+eUFEw0phmwP6hkAAAAASUVORK5CYII=') repeat-x top;
+}
+.A5WindowTitle{
+font: 10pt "Trebuchet MS", arial, sans-serif;
+color: #0e1010;
+font-weight: bold;
+border-top: 1px solid #fff;
+-moz-border-radius: 4px 4px 0px 0px;
+-webkit-border-radius: 4px 4px 0px 0px;
+padding: 1px;
+padding-left: 4px;
+cursor: move;
+}
+.A5WindowBody {
+color: #000;
+padding: 2px 4px;
+margin: 0px 3px;
+border: 1px solid #9d9da1;
+background: #fff url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABLCAIAAAA+tHrUAAAAH0lEQVR42mN4+vQpEwMDAxMDAwMTIyPjoGEPJrdA2QCh/QOPWwOqyAAAAABJRU5ErkJggg==') repeat-x top;
+}
+.A5WindowFooter {
+color: #0e1010;
+border-bottom: 1px solid #fff;
+-moz-border-radius: 0px 0px 4px 4px;
+-webkit-border-radius: 0px 0px 4px 4px;
+background: #c0c0c0 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAFCAIAAAAL5hHIAAAAEklEQVR42mM4cOAAEwsLCzIGACpkAnnkphkCAAAAAElFTkSuQmCC') repeat-x bottom;
+padding: 1px 3px;
+text-align: center;
+}
+.A5WindowButton {
+font: 8pt tahoma, arial;
+width: 60px;
+}
+.A5WindowLock{
+border: 1px solid #000;
+background: #222;
+opacity: .5;
+filter: alpha(opacity: 50);
+}
+
+
+/*
+These styles are used by the Tab
+*/
+.A5TabTopPane {
+color: #000000;
+background: #f7f7f4 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAyCAIAAAASmSbdAAAAL0lEQVR42mP4//8/0////5kYGBiQMIT//z+mGEIcXQ9EDFUPNrNQ9RFvFrr9KGIAf24eRdVHB2UAAAAASUVORK5CYII=') repeat-x top;
+font: 9pt tahoma, arial;
+border: 1px solid #919b9c;
+padding: 2px;
+margin-top: -3px;
+}
+.A5TabTopOn {
+position: relative;
+top: 1px;
+display: block;
+float: left;
+padding: 2px 4px;
+margin-bottom: 3px;
+margin-right: 1px;
+text-decoration: none;
+color: #000000;
+background: #fcfcfe url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAIAAAAW4yFwAAAAEElEQVR42mP4f8KGiYGBAQAM5QIGe4TWIgAAAABJRU5ErkJggg==') repeat-x top;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #919b9c;
+border-top-color: #e68b2c;
+border-bottom-style: none;
+-moz-border-radius: 2px 2px 0px 0px;
+cursor: default;
+}
+.A5TabTopOff {
+display: block;
+float: left;
+padding: 1px 4px;
+padding-botton: 0px;
+margin-bottom: 2px;
+margin-top: 2px;
+margin-right: 1px;
+text-decoration: none;
+color: #000000;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAIAAADDbMD2AAAAHklEQVR42mP4//8/058//5j+/sWG/6PwUdX9x6YHAE6mO4r7R48jAAAAAElFTkSuQmCC') repeat-x top;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #91a7b4;
+border-bottom-color: #919b9c;
+-moz-border-radius: 2px 2px 0px 0px;
+cursor: default;
+}
+.A5TabTopOff:hover {
+color: #000000;
+background: #fcfcfe url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAIAAAAW4yFwAAAAEElEQVR42mP4f8KGiYGBAQAM5QIGe4TWIgAAAABJRU5ErkJggg==') repeat-x top;
+border: 1px solid #919b9c;
+border-top-color: #e68b2c;
+border-bottom-color: #919b9c;
+}
+.A5TabTopDisabled {
+display: block;
+float: left;
+padding: 1px 4px;
+padding-botton: 0px;
+margin-bottom: 2px;
+margin-top: 2px;
+margin-right: 1px;
+text-decoration: none;
+color: #888;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAIAAADDbMD2AAAAHklEQVR42mP4//8/058//5j+/sWG/6PwUdX9x6YHAE6mO4r7R48jAAAAAElFTkSuQmCC') repeat-x top;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #91a7b4;
+border-bottom-color: #919b9c;
+-moz-border-radius: 2px 2px 0px 0px;
+cursor: default;
+}
+
+.A5TabBottomPane {
+color: #000000;
+background: #f7f7f4 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAyCAIAAAASmSbdAAAALklEQVR42mP4/v0LEwMDAxpmZGJgYGBiZMQUQ4gzYtWHqgebWaj6iDcL3X4UMQBqygNdjuoyswAAAABJRU5ErkJggg==') repeat-x bottom;
+font: 9pt tahoma, arial;
+border: 1px solid #919b9c;
+padding: 2px;
+margin-bottom: -3px;
+}
+.A5TabBottomOn {
+position: relative;
+top: 1px;
+display: block;
+float: left;
+padding: 2px 4px;
+margin-top: 1px;
+margin-right: 1px;
+text-decoration: none;
+color: #000000;
+background: #fcfcfe url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAIAAAAW4yFwAAAAEElEQVR42mP4f8KGiYGBAQAM5QIGe4TWIgAAAABJRU5ErkJggg==') repeat-x bottom;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #919b9c;
+border-bottom-color: #e68b2c;
+border-top-style: none;
+-moz-border-radius: 0px 0px 2px 2px;
+cursor: default;
+}
+.A5TabBottomOff {
+display: block;
+float: left;
+padding: 1px 4px;
+padding-botton: 0px;
+margin-top: 2px;
+margin-bottom: 2px;
+margin-right: 1px;
+text-decoration: none;
+color: #000000;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAIAAADDbMD2AAAAHklEQVR42mP4//8/058//5j+/sWG/6PwUdX9x6YHAE6mO4r7R48jAAAAAElFTkSuQmCC') repeat-x top;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #91a7b4;
+border-top-color: #919b9c;
+-moz-border-radius: 2px 2px 0px 0px;
+cursor: default;
+}
+.A5TabBottomOff:hover {
+color: #000000;
+background: #fcfcfe url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAIAAAAW4yFwAAAAEElEQVR42mP4f8KGiYGBAQAM5QIGe4TWIgAAAABJRU5ErkJggg==') repeat-x bottom;
+border: 1px solid #919b9c;
+border-bottom-color: #e68b2c;
+border-top-color: #919b9c;
+}
+.A5TabBottomDisabled {
+display: block;
+float: left;
+padding: 1px 4px;
+padding-botton: 0px;
+margin-top: 2px;
+margin-bottom: 2px;
+margin-right: 1px;
+text-decoration: none;
+color: #888;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAIAAADDbMD2AAAAHklEQVR42mP4//8/058//5j+/sWG/6PwUdX9x6YHAE6mO4r7R48jAAAAAElFTkSuQmCC') repeat-x top;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #91a7b4;
+border-top-color: #919b9c;
+-moz-border-radius: 2px 2px 0px 0px;
+cursor: default;
+}
+
+.A5TabLeftPane {
+color: #000000;
+background: #f7f7f4 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAIAAACnuZzqAAAAMklEQVR42oWOsQ0AMAjD4P+j3aUSDLFgJA6mAaB0fpSQtEKjQThcYkTOHTp5PrQWlgsPlOAd5F6uvK4AAAAASUVORK5CYII=') repeat-y left;
+font: 9pt tahoma, arial;
+border: 1px solid #919b9c;
+padding: 2px;
+}
+.A5TabLeftOn {
+position: relative;
+left: 1px;
+display: block;
+padding: 2px 4px;
+margin-bottom: 1px;
+text-decoration: none;
+color: #000000;
+background: #fcfcfe url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAIAAACUgoPjAAAAEklEQVR42mP8f8KGgYGBgYEBABDvAgWG6wFHAAAAAElFTkSuQmCC') repeat-y left;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #919b9c;
+border-left-color: #e68b2c;
+border-right-style: none;
+-moz-border-radius: 2px 0px 0px 2px;
+cursor: default;
+}
+.A5TabLeftOff {
+display: block;
+padding: 2px 4px;
+margin-left: 2px;
+margin-right: -2px;
+margin-bottom: 1px;
+text-decoration: none;
+color: #000000;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAIAAADDbMD2AAAAHklEQVR42mP4//8/058//5j+/sWG/6PwUdX9x6YHAE6mO4r7R48jAAAAAElFTkSuQmCC') repeat-x top;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #91a7b4;
+border-right-color: #919b9c;
+-moz-border-radius: 2px 0px 0px 2px;
+cursor: default;
+}
+.A5TabLeftOff:hover {
+color: #000000;
+background: #fcfcfe url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAIAAAB7QOjdAAAAD0lEQVR42mP8f8KGgYEBAArgAgWJuthgAAAAAElFTkSuQmCC') repeat-y left;
+border: 1px solid #919b9c;
+border-left-color: #e68b2c;
+border-right-color: #919b9c;
+}
+.A5TabLeftDisabled {
+display: block;
+padding: 2px 4px;
+margin-left: 2px;
+margin-right: -2px;
+margin-bottom: 1px;
+text-decoration: none;
+color: #888;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAIAAADDbMD2AAAAHklEQVR42mP4//8/058//5j+/sWG/6PwUdX9x6YHAE6mO4r7R48jAAAAAElFTkSuQmCC') repeat-x top;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #91a7b4;
+border-right-color: #919b9c;
+-moz-border-radius: 2px 0px 0px 2px;
+cursor: default;
+}
+
+.A5TabRightPane {
+color: #000000;
+background: #f7f7f4 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAIAAACnuZzqAAAAMElEQVR42mP8/v0LAz7ACKUYcUqhCDHilEIoYSRgFw4bGXEYR8A6HI7HogtJGXYNAG4tAvxUwzlYAAAAAElFTkSuQmCC') repeat-y right;
+font: 9pt tahoma, arial;
+border: 1px solid #919b9c;
+padding: 2px;
+}
+.A5TabRightOn {
+position: relative;
+right: 1px;
+display: block;
+padding: 2px 4px;
+margin-bottom: 1px;
+text-decoration: none;
+color: #000000;
+background: #fcfcfe url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABCAIAAACUgoPjAAAAEklEQVR42mP8f8KGgYGBgYEBABDvAgWG6wFHAAAAAElFTkSuQmCC') repeat-y right;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #919b9c;
+border-right-color: #e68b2c;
+border-left-style: none;
+-moz-border-radius: 0px 2px 2px 0px;
+cursor: default;
+}
+.A5TabRightOff {
+display: block;
+padding: 2px 4px;
+margin-right: 2px;
+margin-left: -1px;
+margin-bottom: 1px;
+text-decoration: none;
+color: #000000;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAIAAADDbMD2AAAAHklEQVR42mP4//8/058//5j+/sWG/6PwUdX9x6YHAE6mO4r7R48jAAAAAElFTkSuQmCC') repeat-x top;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #91a7b4;
+border-left-color: #919b9c;
+-moz-border-radius: 0px 2px 2px 0px;
+cursor: default;
+}
+.A5TabRightOff:hover {
+color: #000000;
+background: #fcfcfe url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAABCAIAAAB7QOjdAAAAD0lEQVR42mP8f8KGgYEBAArgAgWJuthgAAAAAElFTkSuQmCC') repeat-y right;
+border: 1px solid #919b9c;
+border-right-color: #e68b2c;
+border-left-color: #919b9c;
+}
+.A5TabRightDisabled {
+display: block;
+padding: 2px 4px;
+margin-right: 2px;
+margin-left: -1px;
+margin-bottom: 1px;
+text-decoration: none;
+color: #888;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAUCAIAAADDbMD2AAAAHklEQVR42mP4//8/058//5j+/sWG/6PwUdX9x6YHAE6mO4r7R48jAAAAAElFTkSuQmCC') repeat-x top;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #91a7b4;
+border-left-color: #919b9c;
+-moz-border-radius: 0px 2px 2px 0px;
+cursor: default;
+}
+
+
+/*
+These styles are used by the Accordion
+*/
+.A5AccordionTitleOn, .A5AccordionTitleOff {
+position: relative;
+top: 1px;
+display: block;
+padding: 1px 4px;
+text-decoration: none;
+color: #000000;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAABCAIAAAB42ySwAAAAQ0lEQVR42mP8////////GRgYGBgYYDQDA8N/JDZEHFMNiiK4GchqsAri0EiUpWRrxOVaDI1EuhZTDTW9OXRdO8iTEABDvKtW3Yk1TQAAAABJRU5ErkJggg==') repeat-y left;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #919b9c;
+-moz-border-radius: 2px 2px 0px 0px;
+-webkit-border-radius: 2px;
+cursor: default;
+margin-top: 3px;
+}
+.A5AccordionTitleOff:hover, .A5AccordionTitleOn:hover {
+color: #555;
+}
+.A5AccordionTitleDisabled {
+position: relative;
+top: 1px;
+display: block;
+padding: 1px 4px;
+text-decoration: none;
+color: #888;
+background: #bebed8 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAABCAIAAAB42ySwAAAAQ0lEQVR42mP8////////GRgYGBgYYDQDA8N/JDZEHFMNiiK4GchqsAri0EiUpWRrxOVaDI1EuhZTDTW9OXRdO8iTEABDvKtW3Yk1TQAAAABJRU5ErkJggg==') repeat-y left;
+font: 9pt tahoma, arial;
+font-weight: bold;
+border: 1px solid #919b9c;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+cursor: default;
+margin-top: 3px;
+}
+.A5AccordionPane {
+color: #000000;
+background: #f7f7f4 url('data:/image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAyCAIAAAASmSbdAAAAL0lEQVR42mP4//8/0////5kYGBiQMIT//z+mGEIcXQ9EDFUPNrNQ9RFvFrr9KGIAf24eRdVHB2UAAAAASUVORK5CYII=') repeat-x top;
+font: 9pt tahoma, arial;
+border: 1px solid #919b9c;
+padding: 2px;
+-moz-border-radius: 0px 0px 2px 2px;
+-webkit-border-radius: 2px;
+}

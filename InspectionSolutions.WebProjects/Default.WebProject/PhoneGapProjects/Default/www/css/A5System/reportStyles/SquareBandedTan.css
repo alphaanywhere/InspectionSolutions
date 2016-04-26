@@ -1,0 +1,166 @@
+.reportColumnBoxColumn {
+border-style: solid;
+border-width: 1pt;
+border-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRow {
+border-style: solid;
+border-width: 1pt;
+border-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnCell {
+font-family: Arial;
+vertical-alignment: middle;
+padding: 3pt;
+}
+.reportColumnHeadingCell {
+font-family: Arial;
+color: #333333;
+background-color: #dacfab;
+padding: 3pt;
+}
+.reportColumnFooterTotal {
+font-family: Arial;
+color: #000000;
+background-color: #e8e0c4;
+vertical-align: middle;
+padding: 3pt;
+}
+.reportColumnDetail {
+font-family: Arial;
+background-color: #ffffff;
+padding: 3pt;
+}
+.reportColumnDetailAlt, .ReportRowAlt td {
+font-family: Arial;
+background-color: #f3efdf;
+padding: 3pt;
+}
+.reportColumnBoxColumnM {
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnL {
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnR {
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnT {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnB {
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnTL {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #aaa07e;
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnTR {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #aaa07e;
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnBL {
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #aaa07e;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxColumnBR {
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #aaa07e;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowM {
+vertical-alignment: middle;
+}
+.reportColumnBoxRowL {
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowR {
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowT {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowB {
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowTL {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #aaa07e;
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowTR {
+border-top-style: solid;
+border-top-width: 1pt;
+border-top-color: #aaa07e;
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowBL {
+border-left-style: solid;
+border-left-width: 1pt;
+border-left-color: #aaa07e;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #aaa07e;
+vertical-alignment: middle;
+}
+.reportColumnBoxRowBR {
+border-right-style: solid;
+border-right-width: 1pt;
+border-right-color: #aaa07e;
+border-bottom-style: solid;
+border-bottom-width: 1pt;
+border-bottom-color: #aaa07e;
+vertical-alignment: middle;
+}

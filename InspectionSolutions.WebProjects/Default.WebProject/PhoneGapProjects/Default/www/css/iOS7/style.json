@@ -1,0 +1,1154 @@
+{
+	"general": {
+		"pageClassName": "iOS7Page",
+		"headingClassName": "iOS7Heading",
+		"text": {
+			"className": "iOS7Text",
+			"highlightClassName": "iOS7TextHighlight"
+		},
+		"linkClassName": "iOS7Link",
+		"group": {
+			"className": "iOS7Group",
+			"labelClassName": "iOS7GroupLabel"
+		},
+		"icons": {
+			"expand": "cssIcon=iOS7Icon iOS7IconRight",
+			"collapse": "cssIcon=iOS7Icon iOS7IconDown",
+			"help": "cssIcon=iOS7Icon iOS7IconHelp",
+			"info": "cssIcon=iOS7Icon iOS7IconInfo",
+			"warning": "cssIcon=iOS7Icon iOS7IconWarning",
+			"error": "cssIcon=iOS7Icon iOS7IconError",
+			"menu": "cssIcon=iOS7Icon iOS7IconMenu",
+			"refresh": "cssIcon=iOS7Icon iOS7IconRefresh",
+			"refreshDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconRefresh",
+			"panel": {
+				"collapseRight": "cssIcon=iOS7Icon iOS7IconLast",
+				"expandRight": "cssIcon=iOS7Icon iOS7IconFirst",
+				"collapseLeft": "cssIcon=iOS7Icon iOS7IconFirst",
+				"expandLeft": "cssIcon=iOS7Icon iOS7IconLast"
+			},
+			"list": {
+				"navigation": "cssIcon=iOS7Icon iOS7IconRight",
+				"navigationSubtle": "cssIcon=iOS7Icon iOS7IconRight"
+			},
+			"edit": {
+				"dropdown": "cssIcon=iOS7Icon iOS7IconDown",
+				"date": "cssIcon=iOS7Icon iOS7IconDown",
+				"dateTime": "cssIcon=iOS7Icon iOS7IconDown",
+				"time": "cssIcon=iOS7Icon iOS7IconDown",
+				"lookup": "cssIcon=iOS7Icon iOS7IconDown",
+				"calculator": "cssIcon=iOS7Icon iOS7IconDown"
+			}
+		},
+		"iconSet": {
+			"type": ""
+		}
+	},
+	"grid": {
+		"base": {
+			"grid": {
+				"className": "iOS7Grid",
+				"headerClassName": "iOS7GridHeader",
+				"footerClassName": "iOS7GridFooter",
+				"summaryLabelClassName": "iOS7GridSummaryLabel",
+				"summaryDataClassName": "iOS7GridSummaryData",
+				"qbeClassName": "iOS7GridQBE",
+				"separatorClassName": "iOS7GridSeparator",
+				"rowHeaderClassName": "iOS7GridRowHeader",
+				"rowHoverClassName": "iOS7GridRowHover",
+				"rowSelectedClassName": "iOS7GridRowSelected",
+				"dataHeaderClassName": "iOS7GridDataHeader",
+				"dataClassName": "iOS7GridData",
+				"dataAltClassName": "iOS7GridDataAlt",
+				"dataErrorClassName": "iOS7GridDataError",
+				"navClassName": "iOS7GridNav"
+			},
+			"detailView": {
+				"className": "iOS7GridForm",
+				"labelClassName": "iOS7GridFormLabel",
+				"dataClassName": "iOS7GridFormData",
+				"dataErrorClassName": "iOS7GridFormDataError"
+			},
+			"icons": {
+				"sort": {
+					"asc": "cssIcon=iOS7IconSm iOS7IconUp",
+					"ascDisabled": "cssIcon=iOS7IconSm iOS7IconDisabled iOS7IconUp",
+					"desc": "cssIcon=iOS7IconSm iOS7IconDown",
+					"descDisabled": "cssIcon=iOS7IconSm iOS7IconDisabled iOS7IconDown"
+				},
+				"page": {
+					"first": "cssIcon=iOS7Icon iOS7IconFirst",
+					"firstDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconFirst",
+					"prev": "cssIcon=iOS7Icon iOS7IconLeft",
+					"prevDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconLeft",
+					"next": "cssIcon=iOS7Icon iOS7IconRight",
+					"nextDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconRight",
+					"last": "cssIcon=iOS7Icon iOS7IconLast",
+					"lastDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconLast"
+				},
+				"row": {
+					"selected": "cssIcon=iOS7Icon iOS7IconRight",
+					"newRow": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconNew",
+					"newRowSelected": "cssIcon=iOS7Icon iOS7IconNew",
+					"expand": "cssIcon=iOS7Icon iOS7IconRight",
+					"collapse": "cssIcon=iOS7Icon iOS7IconDown",
+					"error": "cssIcon=iOS7Icon iOS7IconError",
+					"edit": "cssIcon=iOS7Icon iOS7IconEdit",
+					"editDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconEdit",
+					"save": "cssIcon=iOS7Icon iOS7IconSave",
+					"saveDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconSave",
+					"undoEdits": "cssIcon=iOS7Icon iOS7IconUndo",
+					"undoEditsDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconUndo",
+					"cancelEdits": "cssIcon=iOS7Icon iOS7IconCancelEdit",
+					"cancelEditsDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconCancelEdit",
+					"deleteRow": "cssIcon=iOS7Icon iOS7IconDelete",
+					"deleteRowDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconDelete"
+				},
+				"qbe": {
+					"menu": "cssIcon=iOS7Icon iOS7IconFilter",
+					"toggle": "cssIcon=iOS7Icon iOS7IconFilter",
+					"selected": "cssIcon=iOS7IconSm iOS7IconCheck"
+				},
+				"search": {
+					"search": "cssIcon=iOS7Icon iOS7IconSearch",
+					"clear": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconFilter",
+					"toggle": "cssIcon=iOS7Icon iOS7IconFilter",
+					"save": "cssIcon=iOS7Icon iOS7IconSave",
+					"load": "cssIcon=iOS7Icon iOS7IconLoad"
+				},
+				"record": {
+					"close": "cssIcon=iOS7Icon iOS7IconClose",
+					"first": "cssIcon=iOS7Icon iOS7IconFirst",
+					"firstDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconFirst",
+					"prev": "cssIcon=iOS7Icon iOS7IconLeft",
+					"prevDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconLeft",
+					"next": "cssIcon=iOS7Icon iOS7IconRight",
+					"nextDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconRight",
+					"last": "cssIcon=iOS7Icon iOS7IconLast",
+					"lastDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconLast",
+					"newRecord": "cssIcon=iOS7Icon iOS7IconNew",
+					"save": "cssIcon=iOS7Icon iOS7IconSave",
+					"saveDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconSave",
+					"saveAndEnter": "cssIcon=iOS7Icon iOS7IconSaveAndEnter",
+					"saveAndEnterDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconSaveAndEnter",
+					"deleteRecord": "cssIcon=iOS7Icon iOS7IconDelete",
+					"deleteRecordDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconDelete",
+					"switchToView": "cssIcon=iOS7Icon iOS7IconCancel",
+					"switchToEdit": "cssIcon=iOS7Icon iOS7IconEdit",
+					"cancelEdits": "cssIcon=iOS7Icon iOS7IconCancelEdit",
+					"cancelEditsDisabled": "cssIcon=iOS7Icon iOS7IconDisabled iOS7IconCancelEdit",
+					"newCancelEdits": "cssIcon=iOS7Icon iOS7IconCancelEdit"
+				}
+			}
+		}
+	},
+	"ux": {
+		"base": {
+			"labelClassName": "iOS7DialogLabel",
+			"repeatingSection": {
+				"headerClassName": "iOS7DialogRSHeader",
+				"footerClassName": "iOS7DialogRSFooter",
+				"rowClassName": "iOS7DialogRSRow",
+				"rowSelectedClassName": "iOS7DialogRSRowSelected",
+				"rowHoverClassName": "iOS7DialogRSRowHover",
+				"rowErrorClassName": "iOS7DialogRSRowError",
+				"rowSeparatorClassName": "iOS7DialogRSRowSeparator"
+			},
+			"icons": {
+				"repeatingSection": {
+					"rowSelected": "cssIcon=iOS7Icon iOS7IconRight",
+					"rowError": "cssIcon=iOS7IconBtn iOS7IconError",
+					"rowAdd": "cssIcon=iOS7IconBtn iOS7IconAdd",
+					"rowDelete": "cssIcon=iOS7IconBtn iOS7IconDelete"
+				}
+			}
+		}
+	},
+	"panelCard": {
+		"base": {
+			"className": "iOS7PanelCard",
+			"header": {
+				"className": "iOS7PanelHeader"
+			},
+			"body": {
+				"className": "iOS7PanelBody"
+			},
+			"footer": {
+				"className": "iOS7PanelFooter"
+			}
+		},
+		"top": {
+			"className": "iOS7PanelCard",
+			"header": {
+				"className": "iOS7PanelHeader"
+			},
+			"body": {
+				"className": "iOS7PanelBody"
+			},
+			"footer": {
+				"className": "iOS7PanelFooter"
+			}
+		}
+	},
+	"panelNavigator": {
+		"base": {
+			"className": "",
+			"header": {
+				"className": "iOS7PanelHeader"
+			},
+			"body": {
+				"className": "iOS7PanelBody"
+			},
+			"footer": {
+				"className": "iOS7PanelFooter"
+			},
+			"indicator": {
+				"className": "iOS7PanelNavInd",
+				"panelClassName": "iOS7PanelNavIndButton",
+				"panelSelectedClassName": "iOS7PanelNavIndButtonSelected"
+			}
+		},
+		"top": {
+			"className": "",
+			"header": {
+				"className": "iOS7PanelHeader"
+			},
+			"body": {
+				"className": "iOS7PanelBody"
+			},
+			"footer": {
+				"className": "iOS7PanelFooter"
+			},
+			"indicator": {
+				"className": "iOS7PanelNavInd",
+				"panelClassName": "iOS7PanelNavIndButton",
+				"panelSelectedClassName": "iOS7PanelNavIndButtonSelected"
+			}
+		}
+	},
+	"panelLayout": {
+		"base": {
+			"className": "",
+			"header": {
+				"className": "iOS7PanelHeader"
+			},
+			"body": {
+				"className": "iOS7PanelBody"
+			},
+			"footer": {
+				"className": "iOS7PanelFooter"
+			},
+			"dock": {
+				"panel": {
+					"beforeClassName": "",
+					"afterClassName": ""
+				},
+				"flowLock": {
+					"className": ""
+				}
+			}
+		},
+		"top": {
+			"className": "",
+			"header": {
+				"className": "iOS7PanelHeader"
+			},
+			"body": {
+				"className": "iOS7PanelBody"
+			},
+			"footer": {
+				"className": "iOS7PanelFooter"
+			},
+			"dock": {
+				"panel": {
+					"beforeClassName": "",
+					"afterClassName": ""
+				},
+				"flowLock": {
+					"className": ""
+				}
+			}
+		}
+	},
+	"window": {
+		"base": {
+			"className": "iOS7Win",
+			"activeClassName": "",
+			"adjustmentClassName": "",
+			"outerWrapClassName": "iOS7WinInner",
+			"innerWrapClassName": "iOS7WinBodyContainer",
+			"lockUIClassName": "iOS7UILock",
+			"title": {
+				"className": "iOS7WinTitle",
+				"tools": {
+					"inset": "3px",
+					"verticalInset": "3px",
+					"className": ""
+				},
+				"location": "",
+				"direction": ""
+			},
+			"header": {
+				"className": "iOS7WinHeader"
+			},
+			"tbar": {
+				"className": "iOS7WinTBar"
+			},
+			"body": {
+				"className": "iOS7WinBody"
+			},
+			"buttons": {
+				"className": "iOS7WinButtons"
+			},
+			"bbar": {
+				"className": "iOS7WinBBar"
+			},
+			"footer": {
+				"className": "iOS7WinFooter"
+			},
+			"resizer": {
+				"className": "iOS7WinResizer",
+				"thumbImage": "cssIcon=iOS7Icon iOS7IconResizeThumb"
+			},
+			"pointer": {
+				"size": 15,
+				"upClassName": "iOS7WinPointerUp",
+				"leftClassName": "iOS7WinPointerLeft",
+				"downClassName": "iOS7WinPointerDown",
+				"rightClassName": "iOS7WinPointerRight"
+			},
+			"_buttonDefaults": {
+				"className": "iOS7Button",
+				"hoverClassName": "iOS7ButtonHover",
+				"pressedClassName": "iOS7ButtonPressed",
+				"disabledClassName": "iOS7ButtonDisabled"
+			},
+			"_defaultTools": {
+				"close": {
+					"action": "close",
+					"name": "close",
+					"image": "cssIcon=iOS7Icon iOS7IconClose",
+					"imageHover": "",
+					"imagePressed": ""
+				}
+			}
+		},
+		"dropdown": {
+			"className": "iOS7DDWin",
+			"activeClassName": "",
+			"adjustmentClassName": "",
+			"outerWrapClassName": "iOS7DDWinInner",
+			"innerWrapClassName": "iOS7DDWinBodyContainer",
+			"lockUIClassName": "iOS7UILock",
+			"title": {
+				"className": "iOS7DDWinTitle",
+				"tools": {
+					"inset": "3px",
+					"verticalInset": "3px",
+					"className": ""
+				},
+				"location": "",
+				"direction": ""
+			},
+			"header": {
+				"className": "iOS7DDWinHeader"
+			},
+			"tbar": {
+				"className": "iOS7DDWinTBar"
+			},
+			"body": {
+				"className": "iOS7DDWinBody"
+			},
+			"buttons": {
+				"className": "iOS7DDWinButtons"
+			},
+			"bbar": {
+				"className": "iOS7DDWinBBar"
+			},
+			"footer": {
+				"className": "iOS7DDWinFooter"
+			},
+			"resizer": {
+				"className": "iOS7DDWinResizer",
+				"thumbImage": "cssIcon=iOS7Icon iOS7IconResizeThumb"
+			},
+			"pointer": {
+				"size": 15,
+				"upClassName": "iOS7DDWinPointerUp",
+				"leftClassName": "iOS7DDWinPointerLeft",
+				"downClassName": "iOS7DDWinPointerDown",
+				"rightClassName": "iOS7DDWinPointerRight"
+			},
+			"_buttonDefaults": {
+				"className": "iOS7Button",
+				"hoverClassName": "iOS7ButtonHover",
+				"pressedClassName": "iOS7ButtonPressed",
+				"disabledClassName": "iOS7ButtonDisabled"
+			},
+			"_defaultTools": {
+				"close": {
+					"action": "close",
+					"name": "close",
+					"image": "cssIcon=iOS7Icon iOS7IconClose",
+					"imageHover": "",
+					"imagePressed": ""
+				}
+			}
+		},
+		"panel": {
+			"className": "iOS7PanelCard",
+			"activeClassName": "",
+			"adjustmentClassName": "",
+			"outerWrapClassName": "",
+			"innerWrapClassName": "",
+			"lockUIClassName": "iOS7UILock",
+			"title": {
+				"className": "iOS7PanelHeader",
+				"location": "",
+				"direction": "",
+				"tools": {
+					"inset": "2px",
+					"verticalInset": "",
+					"className": ""
+				}
+			},
+			"header": {
+				"className": "iOS7PanelHeader"
+			},
+			"tbar": {
+				"className": "iOS7PanelHeader"
+			},
+			"body": {
+				"className": "iOS7PanelBody"
+			},
+			"buttons": {
+				"className": "iOS7PanelFooter"
+			},
+			"bbar": {
+				"className": "iOS7PanelFooter"
+			},
+			"footer": {
+				"className": "iOS7PanelFooter"
+			},
+			"resizer": {
+				"className": "iOS7DDWinResizer",
+				"thumbImage": "cssIcon=iOS7Icon iOS7IconResizeThumb"
+			},
+			"_buttonDefaults": {
+				"className": "iOS7Button",
+				"hoverClassName": "iOS7ButtonHover",
+				"pressedClassName": "iOS7ButtonPressed",
+				"disabledClassName": "iOS7ButtonDisabled"
+			},
+			"_defaultTools": {
+				"close": {
+					"action": "close",
+					"name": "close",
+					"image": "cssIcon=iOS7Icon iOS7IconClose",
+					"imageHover": "",
+					"imagePressed": ""
+				}
+			},
+			"pointer": {
+				"size": 10,
+				"upClassName": "",
+				"leftClassName": "",
+				"downClassName": "",
+				"rightClassName": ""
+			}
+		}
+	},
+	"menu": {
+		"base": {
+			"className": "iOS7Menu",
+			"innerClassName": "iOS7MenuInner",
+			"iconColumn": {
+				"className": "",
+				"preventIndentClassName": "",
+				"width": "30px"
+			},
+			"cascadeOffsetX": 0,
+			"cascadeOffsetY": -2,
+			"item": {
+				"className": "iOS7MenuItem",
+				"labelClassName": "",
+				"hoverClassName": "iOS7MenuItemHover",
+				"selectedClassName": "iOS7MenuItemSelected",
+				"disabledClassName": "iOS7MenuItemDisabled",
+				"disabledHoverClassName": "",
+				"cascadeClassName": "iOS7MenuItemCascade",
+				"separatorClassName": "iOS7MenuSeparator",
+				"titleClassName": "iOS7MenuTitle",
+				"radioImage": "cssIcon=iOS7IconSm iOS7IconCheck",
+				"checkImage": "cssIcon=iOS7IconSm iOS7IconCheck"
+			},
+			"pointer": {
+				"show": true,
+				"location": "auto",
+				"size": 15,
+				"upClassName": "iOS7MenuPointerUp",
+				"leftClassName": "iOS7MenuPointerLeft",
+				"downClassName": "iOS7MenuPointerDown",
+				"rightClassName": "iOS7MenuPointerRight"
+			}
+		}
+	},
+	"menubar": {
+		"base": {
+			"item": {
+				"className": "iOS7MenubarHItem",
+				"hoverClassName": "iOS7MenubarHItemHover",
+				"pressedClassName": "iOS7MenubarHItemPressed",
+				"disabledClassName": "iOS7MenubarHItemDisabled",
+				"cascadeClassName": "iOS7MenubarHItemCascade",
+				"separatorClassName": "iOS7MenubarHSeparator"
+			},
+			"className": "",
+			"layout": "horizontal"
+		},
+		"vertical": {
+			"item": {
+				"className": "iOS7MenubarVItem",
+				"hoverClassName": "iOS7MenubarVItemHover",
+				"pressedClassName": "iOS7MenubarVItemPressed",
+				"disabledClassName": "iOS7MenubarVItemDisabled",
+				"cascadeClassName": "iOS7MenubarVItemCascade",
+				"separatorClassName": "iOS7MenubarVSeparator"
+			},
+			"className": "",
+			"layout": "horizontal"
+		}
+	},
+	"listbox": {
+		"base": {
+			"className": "iOS7List",
+			"focusClassName": "",
+			"item": {
+				"className": "iOS7ListItem",
+				"hoverClassName": "",
+				"selectedClassName": "iOS7ListItemSelected",
+				"titleClassName": "iOS7ListTitle",
+				"separatorClassName": "iOS7ListSeparator"
+			},
+			"view": {
+				"navigation": {
+					"prev": {
+						"className": "iOS7ListNavPrev",
+						"pressedClassName": "iOS7ListNavPressed"
+					},
+					"next": {
+						"className": "iOS7ListNavNext",
+						"pressedClassName": "iOS7ListNavPressed"
+					}
+				}
+			},
+			"group": {
+				"navigator": {
+					"className": "iOS7ListGroupNav",
+					"focusClassName": "iOS7ListGroupNavFocus",
+					"location": "right",
+					"offset": 4,
+					"size": 28
+				}
+			},
+			"columnLayout": {
+				"header": {
+					"className": "iOS7ListHeader",
+					"item": {
+						"className": "iOS7ListHeaderItem",
+						"hoverClassName": "",
+						"order": {
+							"ascendingImage": "cssIcon=iOS7IconSm iOS7IconUp",
+							"descendingImage": "cssIcon=iOS7IconSm iOS7IconDown",
+							"style": "position: absolute; right: 12px; top: 50%; margin-top: -9px; display: none;",
+							"className": ""
+						},
+						"resize": {
+							"className": "iOS7ListHeaderItemResizeOverlay",
+							"handle": {
+								"size": "40px",
+								"className": ""
+							},
+							"location": "after"
+						}
+					}
+				},
+				"data": {
+					"item": {
+						"className": ""
+					}
+				}
+			},
+			"disabledClassName": "",
+			"header": {
+				"className": ""
+			},
+			"footer": {
+				"className": ""
+			},
+			"lock": {
+				"className": ""
+			},
+			"content": {
+				"header": {
+					"className": ""
+				},
+				"footer": {
+					"className": ""
+				}
+			}
+		}
+	},
+	"spinList": {
+		"base": {
+			"className": "iOS7SpinList",
+			"item": {
+				"className": "iOS7SpinListItem"
+			},
+			"disabledClassName": ""
+		}
+	},
+	"tree": {
+		"base": {
+			"className": "iOS7Tree",
+			"focusClassName": "",
+			"node": {
+				"className": "iOS7TreeNode",
+				"hoverClassName": "",
+				"selectedClassName": "iOS7TreeNodeSelected",
+				"labelClassName": "iOS7TreeNodeLabel",
+				"leaf": {
+					"firstImage": "",
+					"image": "cssIcon=iOS7IconBtn",
+					"lastImage": ""
+				},
+				"branch": {
+					"firstExpandedImage": "",
+					"firstCollapsedImage": "",
+					"firstExpandedHoverImage": "",
+					"firstCollapsedHoverImage": "",
+					"expandedImage": "cssIcon=iOS7IconBtn iOS7IconDown",
+					"collapsedImage": "cssIcon=iOS7IconBtn iOS7IconRight",
+					"expandedHoverImage": "",
+					"collapsedHoverImage": "",
+					"lastExpandedImage": "",
+					"lastCollapsedImage": "",
+					"lastExpandedHoverImage": "",
+					"lastCollapsedHoverImage": ""
+				}
+			},
+			"branch": {
+				"className": "",
+				"lineImage": "",
+				"nullImage": "cssIcon=iOS7IconBtn"
+			},
+			"disabledClassName": ""
+		}
+	},
+	"datePicker": {
+		"base": {
+			"className": "iOS7DP",
+			"calendar": {
+				"daysOfWeek": {
+					"className": "iOS7DPDaysOfWeek"
+				},
+				"weeksOfYear": {
+					"className": "iOS7DPWeeksOfYear",
+					"headerClassName": "iOS7DPWeeksOfYearHeader"
+				},
+				"date": {
+					"className": "iOS7DPDate",
+					"weekendClassName": "iOS7DPDate",
+					"todayClassName": "iOS7DPDateToday",
+					"item": {
+						"className": "iOS7DPItem",
+						"hoverClassName": "iOS7DPItemHover",
+						"selectedClassName": "iOS7DPItemSelected",
+						"disabledClassName": "iOS7DPItemDisabled",
+						"outOfRangeClassName": "iOS7DPItemOutOfRange"
+					}
+				}
+			},
+			"navigator": {
+				"header": {
+					"className": "iOS7DPHeader",
+					"prevIcon": "cssIcon=iOS7IconBtn iOS7IconLeft",
+					"nextIcon": "cssIcon=iOS7IconBtn iOS7IconRight",
+					"prevIconHover": "",
+					"nextIconHover": "",
+					"item": {
+						"className": "iOS7DPHeaderButton",
+						"hoverClassName": "iOS7DPHeaderButtonHover",
+						"selectedClassName": "iOS7DPHeaderButtonSelected"
+					},
+					"todayButton": {
+						"location": "right",
+						"html": "Today",
+						"tip": "Select today's date"
+					}
+				},
+				"panel": {
+					"className": "iOS7DPPanel",
+					"edit": {
+						"className": "iOS7Edit"
+					},
+					"item": {
+						"className": "iOS7DPPanelItem",
+						"hoverClassName": "iOS7DPPanelItemHover",
+						"selectedClassName": "iOS7DPPanelItemSelected",
+						"disabledClassName": "iOS7DPPanelItemDisabled"
+					}
+				}
+			},
+			"disabledClassName": ""
+		}
+	},
+	"timePicker": {
+		"base": {
+			"className": "iOS7TP",
+			"edit": {
+				"className": "iOS7Edit",
+				"buttonClassName": "iOS7TPEditButton",
+				"buttonImage": "cssIcon=iOS7Icon iOS7IconDown"
+			},
+			"meridianClassName": "iOS7TPMeridianButton",
+			"disabledClassName": ""
+		}
+	},
+	"edit": {
+		"base": {
+			"className": "iOS7Edit",
+			"errorClassName": "iOS7EditError",
+			"watermark": {
+				"className": ""
+			}
+		}
+	},
+	"editButtonGroup": {
+		"base": {
+			"watermark": {
+				"className": "iOS7EditBGWatermark",
+				"style": ""
+			},
+			"container": {
+				"className": "iOS7EditBG",
+				"hoverClassName": "iOS7EditBGHover",
+				"focusClassName": "iOS7EditBGFocus",
+				"separatorClassName": "iOS7EditBGSeparator",
+				"editClassName": "iOS7EditBGEdit",
+				"button": {
+					"html": "{javascript}A5.u.icon.html('cssIcon=iOS7Icon iOS7IconDown')",
+					"className": "iOS7EditBGButton",
+					"hoverClassName": "iOS7EditBGButtonHover",
+					"pressedClassName": "iOS7EditBGButtonPressed"
+				},
+				"errorClassName": ""
+			},
+			"window": {
+				"pointer": {
+					"show": true,
+					"location": "auto"
+				}
+			}
+		}
+	},
+	"button": {
+		"base": {
+			"className": "iOS7Button",
+			"pressedClassName": "iOS7ButtonPressed",
+			"disabledClassName": "iOS7ButtonDisabled",
+			"hoverClassName": ""
+		},
+		"confirm": {
+			"className": "iOS7ButtonConfirm",
+			"pressedClassName": "iOS7ButtonConfirmPressed",
+			"disabledClassName": "iOS7ButtonConfirmDisabled",
+			"hoverClassName": ""
+		},
+		"deny": {
+			"className": "iOS7ButtonDeny",
+			"pressedClassName": "iOS7ButtonDenyPressed",
+			"disabledClassName": "iOS7ButtonDenyDisabled",
+			"hoverClassName": ""
+		},
+		"left": {
+			"className": "iOS7ButtonLeft",
+			"pressedClassName": "iOS7ButtonLeftPressed",
+			"disabledClassName": "iOS7ButtonDisabled",
+			"hoverClassName": ""
+		},
+		"right": {
+			"className": "iOS7ButtonRight",
+			"pressedClassName": "iOS7ButtonRightPressed",
+			"disabledClassName": "iOS7ButtonDisabled",
+			"hoverClassName": ""
+		}
+	},
+	"buttonDropdown": {
+		"base": {
+			"className": "iOS7ButtonDD",
+			"hoverClassName": "",
+			"pressedClassName": "iOS7ButtonDDPressed",
+			"disabledClassName": "iOS7ButtonDDDisabled",
+			"contentClassName": "iOS7ButtonDDContent",
+			"dropdown": {
+				"className": "iOS7ButtonDDDropdown",
+				"icon": "",
+				"location": "right",
+				"html": ""
+			}
+		}
+	},
+	"buttonSplit": {
+		"base": {
+			"className": "iOS7ButtonDD",
+			"hoverClassName": "",
+			"pressedClassName": "iOS7ButtonDDPressed",
+			"disabledClassName": "iOS7ButtonDDDisabled",
+			"contentClassName": "iOS7ButtonDDSplitContent",
+			"dropdown": {
+				"className": "iOS7ButtonDDSplitDropdown",
+				"hoverClassName": "",
+				"icon": "",
+				"location": "right",
+				"html": ""
+			}
+		}
+	},
+	"buttonList": {
+		"base": {
+			"button": {
+				"className": "iOS7Button",
+				"firstClassName": "iOS7ButtonGroupHF",
+				"lastClassName": "iOS7ButtonGroupHL",
+				"middleClassName": "iOS7ButtonGroupHM",
+				"hoverClassName": "",
+				"pressedClassName": "iOS7ButtonPressed",
+				"disabledClassName": "iOS7ButtonDisabled"
+			},
+			"className": ""
+		},
+		"vertical": {
+			"button": {
+				"className": "iOS7Button",
+				"firstClassName": "iOS7ButtonGroupVF",
+				"lastClassName": "iOS7ButtonGroupVL",
+				"middleClassName": "iOS7ButtonGroupVM",
+				"hoverClassName": "",
+				"pressedClassName": "iOS7ButtonPressed",
+				"disabledClassName": "iOS7ButtonDisabled"
+			},
+			"className": ""
+		}
+	},
+	"accordion": {
+		"base": {
+			"titleClassName": "iOS7AccordionButton",
+			"titleSelectedClassName": "iOS7AccordionButtonSelected",
+			"titleDisabledClassName": "iOS7AccordionButtonDisabled",
+			"paneClassName": "iOS7AccordionPane",
+			"className": ""
+		}
+	},
+	"tab": {
+		"base": {
+			"tabClassName": "iOS7TabTButton",
+			"tabSelectedClassName": "iOS7TabTButtonSelected",
+			"tabDisabledClassName": "iOS7TabTButtonDisabled",
+			"paneClassName": "iOS7TabTPane",
+			"location": "top",
+			"className": "",
+			"tabsClassName": "",
+			"panesClassName": ""
+		},
+		"bottom": {
+			"tabClassName": "iOS7TabBButton",
+			"tabSelectedClassName": "iOS7TabBButtonSelected",
+			"tabDisabledClassName": "iOS7TabBButtonDisabled",
+			"paneClassName": "iOS7TabBPane",
+			"location": "top",
+			"className": "",
+			"tabsClassName": "",
+			"panesClassName": ""
+		},
+		"right": {
+			"tabClassName": "iOS7TabRButton",
+			"tabSelectedClassName": "iOS7TabRButtonSelected",
+			"tabDisabledClassName": "iOS7TabRButtonDisabled",
+			"paneClassName": "iOS7TabRPane",
+			"location": "top",
+			"className": "",
+			"tabsClassName": "",
+			"panesClassName": ""
+		},
+		"left": {
+			"tabClassName": "iOS7TabLButton",
+			"tabSelectedClassName": "iOS7TabLButtonSelected",
+			"tabDisabledClassName": "iOS7TabLButtonDisabled",
+			"paneClassName": "iOS7TabLPane",
+			"location": "top",
+			"className": "",
+			"tabsClassName": "",
+			"panesClassName": ""
+		}
+	},
+	"tabBand": {
+		"base": {
+			"location": "top",
+			"className": "iOS7Tabband",
+			"separator": {
+				"className": "iOS7TabbandSeparator",
+				"show": false
+			},
+			"tab": {
+				"className": "iOS7TabbandButton",
+				"selectedClassName": "iOS7TabbandButtonSelected",
+				"disabledClassName": "iOS7TabbandButtonDisabled",
+				"closeClassName": "iOS7TabbandButtonClose",
+				"closeIcon": "cssIcon=iOS7Icon iOS7IconClose iOS7TabbandClose",
+				"closeIconHover": "",
+				"closeIconStyle": "position: absolute; top: 0px; right: -6px;",
+				"closeHoverIcon": ""
+			},
+			"scrollButtons": {
+				"overlay": true,
+				"fullHeight": true,
+				"prevClassName": "iOS7TabbandTLScroll",
+				"prevDisabledClassName": "iOS7TabbandTLScrollDisabled",
+				"prevImage": "cssIcon=",
+				"prevDisabledImage": "cssIcon=",
+				"nextClassName": "iOS7TabbandTRScroll",
+				"nextDisabledClassName": "iOS7TabbandTRScrollDisabled",
+				"nextImage": "cssIcon=",
+				"nextDisabledImage": "cssIcon="
+			}
+		},
+		"icon": {
+			"location": "bottom",
+			"className": "iOS7TabbandIcon",
+			"separator": {
+				"className": "iOS7TabbandSeparator",
+				"show": false
+			},
+			"tab": {
+				"className": "iOS7TabbandButton",
+				"selectedClassName": "iOS7TabbandButtonSelected",
+				"disabledClassName": "iOS7TabbandButtonDisabled",
+				"closeClassName": "iOS7TabbandButtonClose",
+				"closeIcon": "cssIcon=iOS7Icon iOS7IconClose iOS7TabbandClose",
+				"closeIconHover": "",
+				"closeIconStyle": "position: absolute; top: 0px; right: -6px;",
+				"closeHoverIcon": ""
+			},
+			"scrollButtons": {
+				"overlay": true,
+				"fullHeight": true,
+				"prevClassName": "iOS7TabbandTLScroll",
+				"prevDisabledClassName": "iOS7TabbandTLScrollDisabled",
+				"prevImage": "cssIcon=",
+				"prevDisabledImage": "cssIcon=",
+				"nextClassName": "iOS7TabbandTRScroll",
+				"nextDisabledClassName": "iOS7TabbandTRScrollDisabled",
+				"nextImage": "cssIcon=",
+				"nextDisabledImage": "cssIcon="
+			}
+		}
+	},
+	"slider": {
+		"base": {
+			"className": "iOS7Slider",
+			"innerClassName": "iOS7SliderInner",
+			"handle": {
+				"className": "iOS7SliderHandle",
+				"selectedClassName": "iOS7SliderHandleSelected",
+				"hoverClassName": "",
+				"minClassName": "",
+				"maxClassName": ""
+			},
+			"range": {
+				"className": "iOS7SliderRange",
+				"selectedClassName": "iOS7SliderRangeSelected",
+				"hoverClassName": ""
+			},
+			"disabledClassName": ""
+		}
+	},
+	"switch": {
+		"base": {
+			"className": "iOS7Switch",
+			"onClassName": "iOS7SwitchOn",
+			"offClassName": "iOS7SwitchOff",
+			"innerClassName": "iOS7SwitchInner",
+			"rightClassName": "iOS7SwitchRight",
+			"leftClassName": "iOS7SwitchLeft",
+			"buttonClassName": "iOS7SwitchButton",
+			"flow": "ltr",
+			"disabledClassName": ""
+		}
+	},
+	"scroller": {
+		"base": {
+			"className": "iOS7Scroller",
+			"focusClassName": "iOS7ScrollerFocus",
+			"dialClassName": "iOS7ScrollerDialExpanded",
+			"dial": {
+				"className": "iOS7ScrollerDial",
+				"invertDrag": false,
+				"message": {
+					"location": "center",
+					"className": ""
+				}
+			},
+			"slider": {
+				"className": "iOS7ScrollerSlider",
+				"handle": {
+					"className": "iOS7ScrollerSliderHandle"
+				},
+				"shadow": {
+					"className": "iOS7ScrollerSliderShadow"
+				},
+				"message": {
+					"className": "iOS7ScrollerSliderMsg",
+					"bottomClassName": "iOS7ScrollerSliderMsgB",
+					"topClassName": "iOS7ScrollerSliderMsgT",
+					"rightClassName": "iOS7ScrollerSliderMsgR",
+					"leftClassName": "iOS7ScrollerSliderMsgL"
+				},
+				"innerClassName": ""
+			},
+			"flow": "ttb",
+			"location": "after",
+			"offset": {
+				"top": "0px",
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px"
+			}
+		}
+	},
+	"scroll": {
+		"base": {
+			"indicator": {
+				"h": {
+					"className": "iOS7ScrollIndH",
+					"barClassName": "iOS7ScrollIndHBar",
+					"location": "bottom",
+					"offset": "0px",
+					"left": "0px",
+					"right": "0px"
+				},
+				"v": {
+					"className": "iOS7ScrollIndV",
+					"barClassName": "iOS7ScrollIndVBar",
+					"location": "right",
+					"offset": "0px",
+					"top": "0px",
+					"bottom": "0px"
+				}
+			}
+		}
+	},
+	"ink": {
+		"base": {
+			"view": {
+				"className": "iOS7InkArea",
+				"zoomBox": {
+					"className": "iOS7InkZoomBox",
+					"navigateClassName": "iOS7InkZoomBox",
+					"scale": {
+						"className": "iOS7InkZoomBoxScale"
+					}
+				},
+				"page": {
+					"className": "iOS7InkPage",
+					"offset": 1
+				}
+			},
+			"editor": {
+				"className": "iOS7InkArea",
+				"page": {
+					"className": "iOS7InkPage",
+					"offset": 1
+				}
+			},
+			"split": {
+				"bar": {
+					"size": "1px",
+					"className": "iOS7InkSplitBar",
+					"verticalClassName": "",
+					"horizontalClassName": "",
+					"show": true
+				}
+			},
+			"tools": {
+				"pen": {
+					"activeClassName": "",
+					"preview": {
+						"size": 40,
+						"width": {
+							"show": "never"
+						},
+						"clip": {
+							"shape": "circle"
+						}
+					}
+				},
+				"eraser": {
+					"activeClassName": "",
+					"areaClassName": "iOS7InkEraser"
+				},
+				"pan": {
+					"activeClassName": ""
+				}
+			},
+			"ui": {
+				"popup": {
+					"lockClassName": "iOS7InkPopupLock",
+					"className": "iOS7InkPopup",
+					"group": {
+						"className": "iOS7InkPopupGroup"
+					},
+					"swatch": {
+						"className": "iOS7InkPopupSwatch",
+						"selectedClassName": "iOS7InkPopupSwatchSelected"
+					},
+					"button": {
+						"className": "iOS7InkPopupButton"
+					}
+				},
+				"button": {
+					"className": "iOS7InkButton",
+					"selectedClassName": "iOS7InkButtonSelected"
+				},
+				"bar": {
+					"topClassName": "iOS7InkBarTop",
+					"bottomClassName": "iOS7InkBarBottom",
+					"leftClassName": "iOS7InkBarLeft",
+					"rightClassName": "iOS7InkBarRight"
+				},
+				"group": {
+					"topClassName": "iOS7InkGroupTop",
+					"bottomClassName": "iOS7InkGroupBottom",
+					"leftClassName": "iOS7InkGroupLeft",
+					"rightClassName": "iOS7InkGroupRight"
+				},
+				"statusClassName": "iOS7InkStatus",
+				"icons": {
+					"left": "cssIcon=iOS7Icon iOS7IconLeft",
+					"right": "cssIcon=iOS7Icon iOS7IconRight",
+					"newLineLTR": "<svg width=\"40\" height=\"40\" style=\"fill: none; stroke-width: 2px;\"><path d=\"m 16.582034,25.646454 -3.75,-3.75 3.75,-3.75 m 7,-4.5 9e-5,6.25 c 0,0 0,2.25 -2.25,2.25 l -8,0\" /></svg>",
+					"newLineRTL": "<svg width=\"40\" height=\"40\" style=\"fill: none; stroke-width: 2px;\"><path d=\"m 23.417966,25.646454 3.75,-3.75 -3.75,-3.75 m -7,-4.5 -9e-5,6.25 c 0,0 0,2.25 2.25,2.25 l 8,0\" /></svg>",
+					"eraser": "<svg width=\"40\" height=\"40\" style=\"stroke-width: 2px;\"><path d=\"m 12,16 8,8 -3,2.5 -6.5,0 -4.5,-4.5 z\" style=\"fill: none;\" /><path d=\"m 20,8 8,8 -8,8 -8,-8 z\" /><rect x=\"12\" y=\"26\" height=\"2\" width=\"20\" style=\"stroke: none;\"/></svg>",
+					"undo": "cssIcon=iOS7Icon iOS7IconUndo",
+					"redo": "cssIcon=iOS7Icon iOS7IconRedo",
+					"expand": "<svg width=\"40\" height=\"40\" style=\"fill: none; stroke-width: 2px;\"><path d=\"m 10.99995,29.00005 7.5,-7.5 m -1.014243,7.9999 -6.985657,0 0,-6.985658 m 18.5,-11.514342 -7.5,7.5 m 1.014243,-7.9999 6.985657,0 0,6.985658\" /></svg>",
+					"collapse": "<svg width=\"40\" height=\"40\" style=\"fill: none; stroke-width: 2px;\"><path d=\"m 28.485707,18.49995 -6.985657,0 0,-6.985658 m 0.4999,6.485758 7.5,-7.5 m -17.985657,11 6.985657,0 0,6.985658 m -0.4999,-6.485758 -7.5,7.5\" /></svg>",
+					"in": "",
+					"out": "",
+					"fit": ""
+				}
+			},
+			"className": "iOS7Ink"
+		}
+	}
+}
